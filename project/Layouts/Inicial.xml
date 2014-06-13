@@ -15,7 +15,7 @@
     <layers>
         <layer name="background" sid="8722530541249526">
             <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
+            <background-color>42,59,77</background-color>
             <transparent>0</transparent>
             <parallax>
                 <x>1</x>
@@ -29,7 +29,7 @@
             <instances />
             <effects />
         </layer>
-        <layer name="Cabeçalho" sid="7567872043591337">
+        <layer name="Logo" sid="2019964054474944">
             <initially-visible>1</initially-visible>
             <background-color>255,255,255</background-color>
             <transparent>1</transparent>
@@ -43,12 +43,12 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Cabeçalho" uid="2">
+                <instance type="Text" uid="0">
                     <properties>
-                        <text>DISCIPLINA : ANATOMIA  MÉDICO – CIRÚRGICA I</text>
+                        <text>HUMAN BODY</text>
                         <initial-visibility>Visible</initial-visibility>
-                        <font>Calibri,-48,700,0</font>
-                        <color>0,0,0</color>
+                        <font>ADAM.CG PRO,-35,400,0</font>
+                        <color>255,255,0</color>
                         <horizontal-alignment>Left</horizontal-alignment>
                         <vertical-alignment>Top</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -58,263 +58,11 @@
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
-                        <x>855</x>
-                        <y>149</y>
+                        <x>478</x>
+                        <y>131</y>
                         <z>0</z>
-                        <width>1042</width>
-                        <height>66</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Cabeçalho" uid="0">
-                    <properties>
-                        <text>UNIVERSIDADE ESTADUAL DO PIAUÍ- UESPI</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Calibri,-48,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>855</x>
-                        <y>49</y>
-                        <z>0</z>
-                        <width>874</width>
-                        <height>66</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Cabeçalho" uid="1">
-                    <properties>
-                        <text>FACULDADE DE CIÊNCIAS MÉDICAS – FACIME</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Calibri,-48,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>855</x>
-                        <y>99</y>
-                        <z>0</z>
-                        <width>920</width>
-                        <height>66</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Cabeçalho" uid="3">
-                    <properties>
-                        <text>PROFESSORES: FERNANDO CRONEMBERG</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Calibri,-48,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>855</x>
-                        <y>199</y>
-                        <z>0</z>
-                        <width>849</width>
-                        <height>66</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="Cabeçalho" uid="4">
-                    <properties>
-                        <text>KLEBERTH  BORGES DE SANTANA </text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>Calibri,-48,700,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1164</x>
-                        <y>248</y>
-                        <z>0</z>
-                        <width>849</width>
-                        <height>66</height>
-                        <depth>0</depth>
-                        <hotspotX>0</hotspotX>
-                        <hotspotY>0</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="Logos" sid="9160486177433538">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="uespi" uid="5">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1851</x>
-                        <y>1007</y>
-                        <z>0</z>
-                        <width>63.657329559</width>
-                        <height>100.286964417</height>
-                        <depth>0</depth>
-                        <hotspotX>0.502793312</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-                <instance type="medicinaUespiLogo" uid="6">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>1728</x>
-                        <y>1013</y>
-                        <z>0</z>
-                        <width>96.585708618</width>
-                        <height>64.295219421</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.50222224</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="Mascote" sid="7960668820518951">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="bodyMain" uid="7">
-                    <properties>
-                        <initial-visibility>Visible</initial-visibility>
-                        <initial-animation>Default</initial-animation>
-                        <initial-frame>0</initial-frame>
-                        <collisions>Enabled</collisions>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>389</x>
-                        <y>543</y>
-                        <z>0</z>
-                        <width>687.022521973</width>
-                        <height>1030.533813477</height>
-                        <depth>0</depth>
-                        <hotspotX>0.5</hotspotX>
-                        <hotspotY>0.5</hotspotY>
-                        <angle>0</angle>
-                        <opacity>1</opacity>
-                    </world>
-                </instance>
-            </instances>
-            <effects />
-        </layer>
-        <layer name="versão" sid="6499920730802081">
-            <initially-visible>1</initially-visible>
-            <background-color>255,255,255</background-color>
-            <transparent>1</transparent>
-            <parallax>
-                <x>1</x>
-                <y>1</y>
-            </parallax>
-            <zoom-rate>1</zoom-rate>
-            <opacity>1</opacity>
-            <force-own-texture>0</force-own-texture>
-            <blend-mode>0</blend-mode>
-            <effect-fallback>0</effect-fallback>
-            <instances>
-                <instance type="Text" uid="8">
-                    <properties>
-                        <text>Text</text>
-                        <initial-visibility>Visible</initial-visibility>
-                        <font>! PEPSI !,-16,400,0</font>
-                        <color>0,0,0</color>
-                        <horizontal-alignment>Left</horizontal-alignment>
-                        <vertical-alignment>Top</vertical-alignment>
-                        <hotspot>Top-left</hotspot>
-                        <wrapping>Word</wrapping>
-                        <line-height>0</line-height>
-                    </properties>
-                    <blend-mode>0</blend-mode>
-                    <effect-fallback>0</effect-fallback>
-                    <world>
-                        <x>52</x>
-                        <y>1025</y>
-                        <z>0</z>
-                        <width>218</width>
-                        <height>42</height>
+                        <width>200</width>
+                        <height>30</height>
                         <depth>0</depth>
                         <hotspotX>0</hotspotX>
                         <hotspotY>0</hotspotY>
