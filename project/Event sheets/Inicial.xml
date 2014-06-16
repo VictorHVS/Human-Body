@@ -2,5 +2,52 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Inicial</name>
-    <events />
+    <events>
+        <event-group description="" sid="2013026384201701" title="Animation">
+            <sub-events>
+                <event-block sid="1920401543471809">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="7577663586013844" type="Mouse">
+                            <param id="0" name="Object">botoes</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="8058517058521278" type="botoes">
+                            <param id="0" name="Animation">&quot;oncursor&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="5723344976145153">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="8491150820738489" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="2736962316250807" type="botoes">
+                            <param id="0" name="Animation">&quot;release&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="6857027065489661" title="Click">
+            <sub-events>
+                <event-block sid="5418234496526949">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="5158184413625428" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">iniciar_</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="5678652436266494" type="System">
+                            <param id="0" name="Layout">Transicao</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
 </c2eventsheet>

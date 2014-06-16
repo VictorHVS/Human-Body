@@ -10,8 +10,11 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>16800</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
+        <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -39,70 +42,203 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder expanded="1">
-        <object-type name="medicinaUespiLogo" sid="767578275804408">
+        <object-folder expanded="0" name="TelaInicial">
+            <object-type name="logo" sid="936613467881414">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5809428659697356" speed="5">
+                        <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                            <collision-poly>
+                                <point x="0.00952381" y="0.0168539" />
+                                <point x="0.5" y="0.238764" />
+                                <point x="0.990476" y="0.0168539" />
+                                <point x="0.836508" y="0.710674" />
+                                <point x="0.5" y="0.910112" />
+                                <point x="0.142857" y="0.747191" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder expanded="0" name="menu_inicial">
+            <object-type name="sobre_" sid="6181519140044649">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="release" pingpong="0" repeatcount="1" repeatto="0" sid="7555925645062066" speed="5">
+                        <frame duration="1" hotspotX="0.500768" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="oncursor" pingpong="0" repeatcount="1" repeatto="0" sid="6101082249334306" speed="5">
+                        <frame duration="1" hotspotX="0.500768" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="configuracoes_" sid="8274943590187358">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="release" pingpong="0" repeatcount="1" repeatto="0" sid="5474366643647498" speed="5">
+                        <frame duration="1" hotspotX="0.500768" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="oncursor" pingpong="0" repeatcount="1" repeatto="0" sid="2146703203302878" speed="5">
+                        <frame duration="1" hotspotX="0.500768" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="iniciar_" sid="3100839455599558">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="release" pingpong="0" repeatcount="0" repeatto="0" sid="8122863905488528" speed="0">
+                        <frame duration="0" hotspotX="0.500768" hotspotY="0.5" />
+                    </animation>
+                    <animation framecount="1" loop="0" name="oncursor" pingpong="0" repeatcount="1" repeatto="0" sid="9834356528329438" speed="5">
+                        <frame duration="1" hotspotX="0.500768" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-folder expanded="1" name="menu_transicao">
+            <object-type name="fundo_" sid="1271214113862844">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1051832887338383" speed="5">
+                        <frame duration="1" hotspotX="0.500512" hotspotY="0.5" />
+                    </animation>
+                </animation-folder>
+            </object-type>
+        </object-folder>
+        <object-type name="Mouse" sid="8772977529261775">
+            <plugin id="Mouse" />
+        </object-type>
+        <object-type name="Keyboard" sid="6395358726896594">
+            <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="fundo_body" sid="6805058121498747">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1667618881404428" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502222">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7778358087381073" speed="5">
+                    <frame duration="1" hotspotX="0.50078" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home" sid="9671063627728308">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5721367149074724" speed="5">
+                    <frame duration="1" hotspotX="0.504" hotspotY="0.505263" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="footer" sid="7434761328090894">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716355172761509" speed="5">
+                    <frame duration="1" hotspotX="0.500596" hotspotY="0.507246" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="title_" sid="5119197580150114">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2280101808867989" speed="5">
+                    <frame duration="1" hotspotX="0.501845" hotspotY="0.5">
                         <collision-poly>
-                            <point x="0.455621" y="0.684444" />
-                            <point x="0.5" y="0.124444" />
-                            <point x="0.491124" y="0.764444" />
-                            <point x="0.627219" y="0.497778" />
-                            <point x="0.902367" y="0.853333" />
-                            <point x="0.5" y="0.911111" />
-                            <point x="0.0325444" y="0.951111" />
-                            <point x="0.366864" y="0.497778" />
+                            <point x="0.158672" y="0.52439" />
+                            <point x="0.97786" y="0.0731707" />
+                            <point x="0.99631" y="0.5" />
+                            <point x="0.96679" y="0.890244" />
+                            <point x="0.00738007" y="0.97561" />
+                            <point x="0" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="uespi" sid="9997323701817307">
+        <object-type name="inervacao" sid="774881646044506">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1832975812190434" speed="5">
-                    <frame duration="1" hotspotX="0.502793" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.184358" y="0.117021" />
-                            <point x="0.497207" y="0.0567376" />
-                            <point x="0.793296" y="0.131206" />
-                            <point x="0.877095" y="0.5" />
-                            <point x="0.882682" y="0.925532" />
-                            <point x="0.497207" y="1" />
-                            <point x="0.117318" y="0.925532" />
-                            <point x="0.122905" y="0.5" />
-                        </collision-poly>
-                    </frame>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4634473125165946" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="bodyMain" sid="7543922965017738">
+        <object-type name="articulacao" sid="5669312951074069">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5118402251840331" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3657197060924527" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Text" sid="7902321330644417">
+        <object-type name="ossos" sid="4886833642168455">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1159924343406881" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="irrigacao" sid="5478619326847858">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1505444889718269" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="musculacao" sid="4753666054849418">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2303176982325258" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="simulado" sid="4065956905510116">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5017076325628993" speed="5">
+                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TextBox" sid="756760005348807">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Text" sid="9715144128189489">
             <plugin id="Text" />
         </object-type>
     </object-folder>
-    <families />
+    <families>
+        <family name="botoes" plugin-id="Sprite" sid="8188564402915382">
+            <members>
+                <member>configuracoes_</member>
+                <member>iniciar_</member>
+                <member>sobre_</member>
+            </members>
+        </family>
+    </families>
     <layout-folder expanded="1">
+        <layout-folder expanded="1" name="Inervacao">
+            <layout>simulado.xml</layout>
+        </layout-folder>
         <layout>Inicial.xml</layout>
-        <layout>Transição.xml</layout>
+        <layout>Transicao.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
+        <event-folder expanded="1" name="Inervacao">
+            <event-sheet>simulado.xml</event-sheet>
+        </event-folder>
         <event-sheet>Inicial.xml</event-sheet>
-        <event-sheet>Transição.xml</event-sheet>
+        <event-sheet>Transicao.xml</event-sheet>
     </event-folder>
-    <global-instances />
+    <global-instances>
+        <global-instance type="Mouse" uid="4" />
+        <global-instance type="Keyboard" uid="5" />
+    </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />
     <files-folder expanded="1">
-        <file-folder expanded="1" name="Icons">
+        <file-folder expanded="0" name="Icons">
             <file name="icon-16.png" />
             <file name="icon-32.png" />
             <file name="icon-114.png" />
