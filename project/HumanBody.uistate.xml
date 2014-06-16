@@ -11,10 +11,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </configurations>
     <open-tabs>
         <layout active="1">Transicao</layout>
-        <layout>simulado</layout>
         <layout>Inicial</layout>
+        <layout>simulado</layout>
         <event-sheet>Transicao</event-sheet>
         <event-sheet>simulado</event-sheet>
+        <event-sheet>Inicial</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -24,5 +25,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <families-expanded root="1">
         <family expanded="0" name="botoes" />
+        <family expanded="0" name="body" />
     </families-expanded>
 </c2uistate>

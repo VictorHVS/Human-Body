@@ -97,14 +97,312 @@
             </object-type>
         </object-folder>
         <object-folder expanded="1" name="menu_transicao">
-            <object-type name="fundo_" sid="1271214113862844">
-                <plugin id="Sprite" />
-                <animation-folder expanded="1">
-                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1051832887338383" speed="5">
-                        <frame duration="1" hotspotX="0.500512" hotspotY="0.5" />
-                    </animation>
-                </animation-folder>
-            </object-type>
+            <object-folder expanded="1" name="Icon_botoes">
+                <object-type name="articulacao" sid="5669312951074069">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3657197060924527" speed="5">
+                            <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="inervacao" sid="774881646044506">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4634473125165946" speed="5">
+                            <frame duration="1" hotspotX="0.502008" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="irrigacao" sid="5478619326847858">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1505444889718269" speed="5">
+                            <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="musculacao" sid="4753666054849418">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2303176982325258" speed="5">
+                            <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="ossos" sid="4886833642168455">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1159924343406881" speed="5">
+                            <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="home" sid="9671063627728308">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5721367149074724" speed="5">
+                            <frame duration="1" hotspotX="0.504" hotspotY="0.505263" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="simulado" sid="4065956905510116">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5017076325628993" speed="5">
+                            <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder expanded="1" name="Estaticos">
+                <object-type name="fundo_" sid="1271214113862844">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1051832887338383" speed="5">
+                            <frame duration="1" hotspotX="0.500512" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="footer" sid="7434761328090894">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716355172761509" speed="5">
+                            <frame duration="1" hotspotX="0.500596" hotspotY="0.507246" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="fundo_body" sid="6805058121498747">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7778358087381073" speed="5">
+                            <frame duration="1" hotspotX="0.50078" hotspotY="0.5" />
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="title_" sid="5119197580150114">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2280101808867989" speed="5">
+                            <frame duration="1" hotspotX="0.501845" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.158672" y="0.52439" />
+                                    <point x="0.97786" y="0.0731707" />
+                                    <point x="0.99631" y="0.5" />
+                                    <point x="0.96679" y="0.890244" />
+                                    <point x="0.00738007" y="0.97561" />
+                                    <point x="0" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
+            <object-folder expanded="1" name="click_botoes">
+                <object-type name="abdome" sid="7018630605263285">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Abdome" pingpong="0" repeatcount="1" repeatto="0" sid="3257594294482029" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.503597">
+                                <collision-poly>
+                                    <point x="0.00625" y="0.00719424" />
+                                    <point x="0.9875" y="0.0143885" />
+                                    <point x="0.94375" y="0.42446" />
+                                    <point x="0.99375" y="0.705036" />
+                                    <point x="0.5" y="0.992806" />
+                                    <point x="0" y="0.705036" />
+                                    <point x="0.0625" y="0.410072" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="cabeca" sid="7138423515925689">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Cabeça" pingpong="0" repeatcount="1" repeatto="0" sid="5743761958971605" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.504348">
+                                <collision-poly>
+                                    <point x="0.212963" y="0.0608696" />
+                                    <point x="0.5" y="0.00869565" />
+                                    <point x="0.842593" y="0.147826" />
+                                    <point x="0.990741" y="0.495652" />
+                                    <point x="0.851852" y="0.86087" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.166667" y="0.843478" />
+                                    <point x="0.00925926" y="0.495652" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="coxa_direita" sid="779491954361121">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Coxa" pingpong="0" repeatcount="1" repeatto="0" sid="5391578579808762" speed="5">
+                            <frame duration="1" hotspotX="0.505747" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.0344828" y="0.0137615" />
+                                    <point x="0.494253" y="0.0458716" />
+                                    <point x="1" y="0.119266" />
+                                    <point x="0.896552" y="0.5" />
+                                    <point x="0.770115" y="1" />
+                                    <point x="0.114943" y="1" />
+                                    <point x="0.195402" y="0.816514" />
+                                    <point x="0.0344828" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="coxa_esquerda" sid="6617807082095142">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Coxa" pingpong="0" repeatcount="1" repeatto="0" sid="7596140629661748" speed="5">
+                            <frame duration="1" hotspotX="0.505618" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.0224719" y="0.103604" />
+                                    <point x="0.978933" y="2.79397e-009" />
+                                    <point x="0.988764" y="0.5" />
+                                    <point x="0.837079" y="0.798987" />
+                                    <point x="0.88764" y="1" />
+                                    <point x="0.247191" y="1" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="pe_direito" sid="1595962061681122">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Pé" pingpong="0" repeatcount="1" repeatto="0" sid="9040558866596941" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.360465" y="0.378049" />
+                                    <point x="0.5" y="0.182927" />
+                                    <point x="0.976744" y="0.0243902" />
+                                    <point x="0.94186" y="0.5" />
+                                    <point x="0.790698" y="0.780488" />
+                                    <point x="0.5" y="0.987805" />
+                                    <point x="0.116279" y="0.878049" />
+                                    <point x="0.244186" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="pe_esquerdo" sid="852479658988285">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Pé" pingpong="0" repeatcount="1" repeatto="0" sid="7383330233839742" speed="5">
+                            <frame duration="1" hotspotX="0.505618" hotspotY="0.506024">
+                                <collision-poly>
+                                    <point x="0.011236" y="0.0120482" />
+                                    <point x="0.494382" y="0.228916" />
+                                    <point x="0.707865" y="0.493976" />
+                                    <point x="0.865169" y="0.855422" />
+                                    <point x="0.494382" y="0.987952" />
+                                    <point x="0.235955" y="0.746988" />
+                                    <point x="0.0898876" y="0.493976" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="perna_direita" sid="27951980369696">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Perna" pingpong="0" repeatcount="1" repeatto="0" sid="4811254071161051" speed="5">
+                            <frame duration="1" hotspotX="0.508197" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.0655738" y="0.0217391" />
+                                    <point x="0.491803" y="0" />
+                                    <point x="0.95082" y="0.0163043" />
+                                    <point x="0.885246" y="0.5" />
+                                    <point x="0.704918" y="0.902174" />
+                                    <point x="0.491803" y="0.994565" />
+                                    <point x="0.213115" y="0.929348" />
+                                    <point x="0.0491803" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="perna_esquerda" sid="592487369153119">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Perna" pingpong="0" repeatcount="1" repeatto="0" sid="6835091651742962" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.502732">
+                                <collision-poly>
+                                    <point x="0.0322581" y="0.010929" />
+                                    <point x="0.5" y="0.00546448" />
+                                    <point x="0.919355" y="0.0273224" />
+                                    <point x="0.935484" y="0.497268" />
+                                    <point x="0.790323" y="0.928962" />
+                                    <point x="0.5" y="1" />
+                                    <point x="0.274194" y="0.907104" />
+                                    <point x="0.112903" y="0.497268" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="pescoco" sid="8431072462273964">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Pescoço" pingpong="0" repeatcount="1" repeatto="0" sid="3099970460275094" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.521739">
+                                <collision-poly>
+                                    <point x="0.238032" y="0" />
+                                    <point x="0.5" y="0" />
+                                    <point x="0.780585" y="0" />
+                                    <point x="0.781915" y="0.342391" />
+                                    <point x="0.990692" y="0.940217" />
+                                    <point x="0.507979" y="0.945652" />
+                                    <point x="0.0212766" y="0.913043" />
+                                    <point x="0.255319" y="0.347826" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="quadril" sid="237956904701615">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Quadril" pingpong="0" repeatcount="1" repeatto="0" sid="7392866949939786" speed="5">
+                            <frame duration="1" hotspotX="0.502762" hotspotY="0.504762">
+                                <collision-poly>
+                                    <point x="0.0552486" y="0.0952381" />
+                                    <point x="0.497238" y="0.428571" />
+                                    <point x="0.955801" y="0.0190476" />
+                                    <point x="0.98895" y="0.495238" />
+                                    <point x="0.994475" y="0.742857" />
+                                    <point x="0.475138" y="1" />
+                                    <point x="0.00552486" y="0.771429" />
+                                    <point x="0.0220994" y="0.495238" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+                <object-type name="torax" sid="3072671540697469">
+                    <plugin id="Sprite" />
+                    <animation-folder expanded="1">
+                        <animation framecount="1" loop="0" name="Tórax" pingpong="0" repeatcount="1" repeatto="0" sid="5734293692146001" speed="5">
+                            <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                                <collision-poly>
+                                    <point x="0.10625" y="0.0555555" />
+                                    <point x="0.5375" y="0.0138889" />
+                                    <point x="0.89375" y="0.0833333" />
+                                    <point x="0.9875" y="0.986111" />
+                                    <point x="0.00625" y="0.993056" />
+                                    <point x="0.0375" y="0.5" />
+                                </collision-poly>
+                            </frame>
+                        </animation>
+                    </animation-folder>
+                </object-type>
+            </object-folder>
         </object-folder>
         <object-type name="Mouse" sid="8772977529261775">
             <plugin id="Mouse" />
@@ -112,100 +410,17 @@
         <object-type name="Keyboard" sid="6395358726896594">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="fundo_body" sid="6805058121498747">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7778358087381073" speed="5">
-                    <frame duration="1" hotspotX="0.50078" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="home" sid="9671063627728308">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5721367149074724" speed="5">
-                    <frame duration="1" hotspotX="0.504" hotspotY="0.505263" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="footer" sid="7434761328090894">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="716355172761509" speed="5">
-                    <frame duration="1" hotspotX="0.500596" hotspotY="0.507246" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="title_" sid="5119197580150114">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2280101808867989" speed="5">
-                    <frame duration="1" hotspotX="0.501845" hotspotY="0.5">
-                        <collision-poly>
-                            <point x="0.158672" y="0.52439" />
-                            <point x="0.97786" y="0.0731707" />
-                            <point x="0.99631" y="0.5" />
-                            <point x="0.96679" y="0.890244" />
-                            <point x="0.00738007" y="0.97561" />
-                            <point x="0" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="inervacao" sid="774881646044506">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4634473125165946" speed="5">
-                    <frame duration="1" hotspotX="0.502008" hotspotY="0.5" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="articulacao" sid="5669312951074069">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3657197060924527" speed="5">
-                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="ossos" sid="4886833642168455">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1159924343406881" speed="5">
-                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="irrigacao" sid="5478619326847858">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1505444889718269" speed="5">
-                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="musculacao" sid="4753666054849418">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2303176982325258" speed="5">
-                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
-                </animation>
-            </animation-folder>
-        </object-type>
-        <object-type name="simulado" sid="4065956905510116">
-            <plugin id="Sprite" />
-            <animation-folder expanded="1">
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5017076325628993" speed="5">
-                    <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="TextBox" sid="756760005348807">
             <plugin id="TextBox" />
         </object-type>
         <object-type name="Text" sid="9715144128189489">
             <plugin id="Text" />
+        </object-type>
+        <object-type name="Option" sid="3312040532935277">
+            <plugin id="Text" />
+            <instance-variables>
+                <instance-variable name="option" sid="5855454780525876" type="string" />
+            </instance-variables>
         </object-type>
     </object-folder>
     <families>
@@ -214,6 +429,21 @@
                 <member>configuracoes_</member>
                 <member>iniciar_</member>
                 <member>sobre_</member>
+            </members>
+        </family>
+        <family name="body" plugin-id="Sprite" sid="1549000930269646">
+            <members>
+                <member>abdome</member>
+                <member>cabeca</member>
+                <member>coxa_direita</member>
+                <member>coxa_esquerda</member>
+                <member>pe_direito</member>
+                <member>pe_esquerdo</member>
+                <member>perna_direita</member>
+                <member>perna_esquerda</member>
+                <member>pescoco</member>
+                <member>quadril</member>
+                <member>torax</member>
             </members>
         </family>
     </families>
@@ -225,7 +455,7 @@
         <layout>Transicao.xml</layout>
     </layout-folder>
     <event-folder expanded="1">
-        <event-folder expanded="1" name="Inervacao">
+        <event-folder expanded="0" name="Inervacao">
             <event-sheet>simulado.xml</event-sheet>
         </event-folder>
         <event-sheet>Inicial.xml</event-sheet>

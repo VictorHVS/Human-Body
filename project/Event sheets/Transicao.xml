@@ -21,6 +21,43 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="8137154921191275" title="simulacao" />
+        <event-group collapsed="1" description="" sid="8137154921191275" title="OnCursor" />
+        <event-block sid="816211900120462">
+            <conditions>
+                <condition id="7" name="Cursor is over object" sid="4296719698926612" type="Mouse">
+                    <param id="0" name="Object">body</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="6321447777088072" type="Option">
+                    <param id="0" name="Text">body.AnimationName</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7713743686340264">
+            <conditions>
+                <condition id="-22" name="Else" sid="5565665329517864" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="7151211013778558" type="Option">
+                    <param id="0" name="Text">Option.option</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2183598631451939">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="6543245743831158" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">body</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-10" name="Set value" sid="6078237879076755" type="Option">
+                    <param id="0" name="Instance variable">option</param>
+                    <param id="1" name="Value">Option.Text</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
