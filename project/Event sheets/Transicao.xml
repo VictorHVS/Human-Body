@@ -34,7 +34,7 @@
                 </action>
             </actions>
         </event-block>
-        <event-block sid="7713743686340264">
+        <event-block disabled="1" sid="7713743686340264">
             <conditions>
                 <condition id="-22" name="Else" sid="5565665329517864" type="System" />
             </conditions>
@@ -56,6 +56,37 @@
                 <action id="-10" name="Set value" sid="6078237879076755" type="Option">
                     <param id="0" name="Instance variable">option</param>
                     <param id="1" name="Value">Option.Text</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3274839935219813">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1307464009751386" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">simulado</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="3442221572868805" type="System">
+                    <param id="0" name="Layout">simulado</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="1275390277861799">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="7590307828218797" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">menus</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action disabled="1" id="-25" name="Go to layout (by name)" sid="6037441778849829" type="System">
+                    <param id="0" name="Layout">&quot;Cabeça&quot; &amp; menus.LayerName</param>
+                </action>
+                <action id="0" name="Set text" sid="7816310285096174" type="Option">
+                    <param id="0" name="Text">Option.Text &amp; menus.AnimationName</param>
                 </action>
             </actions>
         </event-block>

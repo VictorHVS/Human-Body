@@ -101,7 +101,7 @@
                 <object-type name="articulacao" sid="5669312951074069">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3657197060924527" speed="5">
+                        <animation framecount="1" loop="0" name="Articulacao" pingpong="0" repeatcount="1" repeatto="0" sid="3657197060924527" speed="5">
                             <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
                         </animation>
                     </animation-folder>
@@ -109,7 +109,7 @@
                 <object-type name="inervacao" sid="774881646044506">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4634473125165946" speed="5">
+                        <animation framecount="1" loop="0" name="Inervacao" pingpong="0" repeatcount="1" repeatto="0" sid="4634473125165946" speed="5">
                             <frame duration="1" hotspotX="0.502008" hotspotY="0.5" />
                         </animation>
                     </animation-folder>
@@ -117,7 +117,7 @@
                 <object-type name="irrigacao" sid="5478619326847858">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1505444889718269" speed="5">
+                        <animation framecount="1" loop="0" name="Irrigacao" pingpong="0" repeatcount="1" repeatto="0" sid="1505444889718269" speed="5">
                             <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
                         </animation>
                     </animation-folder>
@@ -125,7 +125,7 @@
                 <object-type name="musculacao" sid="4753666054849418">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="2303176982325258" speed="5">
+                        <animation framecount="1" loop="0" name="Musculo" pingpong="0" repeatcount="1" repeatto="0" sid="2303176982325258" speed="5">
                             <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
                         </animation>
                     </animation-folder>
@@ -133,7 +133,7 @@
                 <object-type name="ossos" sid="4886833642168455">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1159924343406881" speed="5">
+                        <animation framecount="1" loop="0" name="Ossos" pingpong="0" repeatcount="1" repeatto="0" sid="1159924343406881" speed="5">
                             <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
                         </animation>
                     </animation-folder>
@@ -149,7 +149,7 @@
                 <object-type name="simulado" sid="4065956905510116">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
-                        <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5017076325628993" speed="5">
+                        <animation framecount="1" loop="0" name="Simulado" pingpong="0" repeatcount="1" repeatto="0" sid="5017076325628993" speed="5">
                             <frame duration="1" hotspotX="0.502008" hotspotY="0.502008" />
                         </animation>
                     </animation-folder>
@@ -444,6 +444,16 @@
                 <member>pescoco</member>
                 <member>quadril</member>
                 <member>torax</member>
+            </members>
+        </family>
+        <family name="menus" plugin-id="Sprite" sid="9754088040972024">
+            <members>
+                <member>articulacao</member>
+                <member>inervacao</member>
+                <member>irrigacao</member>
+                <member>musculacao</member>
+                <member>ossos</member>
+                <member>simulado</member>
             </members>
         </family>
     </families>
