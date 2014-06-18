@@ -10,12 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>Transicao</layout>
-        <layout>Inicial</layout>
-        <layout>simulado</layout>
-        <event-sheet active="1">Transicao</event-sheet>
-        <event-sheet>simulado</event-sheet>
-        <event-sheet>Inicial</event-sheet>
+        <layout active="1">Transicao</layout>
+        <event-sheet>Transicao</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -27,5 +23,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="botoes" />
         <family expanded="0" name="body" />
         <family expanded="0" name="menus" />
+        <family expanded="0" name="superior" />
+        <family expanded="0" name="clicks" />
+        <family expanded="0" name="infeior" />
     </families-expanded>
 </c2uistate>

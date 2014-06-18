@@ -21,29 +21,32 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="8137154921191275" title="OnCursor" />
-        <event-block sid="816211900120462">
-            <conditions>
-                <condition id="7" name="Cursor is over object" sid="4296719698926612" type="Mouse">
-                    <param id="0" name="Object">body</param>
-                </condition>
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="6321447777088072" type="Option">
-                    <param id="0" name="Text">body.AnimationName</param>
-                </action>
-            </actions>
-        </event-block>
-        <event-block disabled="1" sid="7713743686340264">
-            <conditions>
-                <condition id="-22" name="Else" sid="5565665329517864" type="System" />
-            </conditions>
-            <actions>
-                <action id="0" name="Set text" sid="7151211013778558" type="Option">
-                    <param id="0" name="Text">Option.option</param>
-                </action>
-            </actions>
-        </event-block>
+        <event-group description="" sid="8137154921191275" title="OnCursor">
+            <sub-events>
+                <event-block sid="816211900120462">
+                    <conditions>
+                        <condition id="7" name="Cursor is over object" sid="4296719698926612" type="Mouse">
+                            <param id="0" name="Object">clicks</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="6321447777088072" type="Option">
+                            <param id="0" name="Text">clicks.AnimationName</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9998813170966724">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="7146767081460209" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="0" name="Set text" sid="7151211013778558" type="Option">
+                            <param id="0" name="Text">Option.option</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
         <event-block sid="2183598631451939">
             <conditions>
                 <condition id="6" name="On object clicked" sid="6543245743831158" type="Mouse">
@@ -67,11 +70,7 @@
                     <param id="2" name="Object clicked">simulado</param>
                 </condition>
             </conditions>
-            <actions>
-                <action id="-2" name="Go to layout" sid="3442221572868805" type="System">
-                    <param id="0" name="Layout">simulado</param>
-                </action>
-            </actions>
+            <actions />
         </event-block>
         <event-block sid="1275390277861799">
             <conditions>
@@ -82,7 +81,7 @@
                 </condition>
             </conditions>
             <actions>
-                <action disabled="1" id="-25" name="Go to layout (by name)" sid="6037441778849829" type="System">
+                <action id="-25" name="Go to layout (by name)" sid="6037441778849829" type="System">
                     <param id="0" name="Layout">&quot;Cabeça&quot; &amp; menus.LayerName</param>
                 </action>
                 <action id="0" name="Set text" sid="7816310285096174" type="Option">
