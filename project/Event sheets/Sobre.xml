@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Sobre</name>
+    <events>
+        <event-block sid="8761403641990064">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="3917599517384624" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">home2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6228048863382808" type="System">
+                    <param id="0" name="Layout">Inicial</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="5186534541556635">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="24831473193237" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">sobre</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="7" name="Go to URL" sid="7409811662323162" type="Browser">
+                    <param id="0" name="URL">&quot;http://www.bracode.net&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

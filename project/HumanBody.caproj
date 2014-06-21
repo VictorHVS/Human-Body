@@ -10,10 +10,12 @@
     <unique-id>2m2oqhlgof90t</unique-id>
     <saved-with-version>16800</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Browser" version="1">Browser</plugin>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Mouse" version="1">Mouse</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
         <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Scirra" id="TextBox" version="1">Text box</plugin>
     </used-plugins>
     <used-behaviors />
     <used-effects />
@@ -41,7 +43,7 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder expanded="1">
-        <object-folder expanded="0" name="TelaInicial">
+        <object-folder expanded="1" name="TelaInicial">
             <object-type name="logo" sid="936613467881414">
                 <plugin id="Sprite" />
                 <animation-folder expanded="1">
@@ -54,6 +56,21 @@
                                 <point x="0.836508" y="0.710674" />
                                 <point x="0.5" y="0.910112" />
                                 <point x="0.142857" y="0.747191" />
+                            </collision-poly>
+                        </frame>
+                    </animation>
+                </animation-folder>
+            </object-type>
+            <object-type name="sobre" sid="9937331824138922">
+                <plugin id="Sprite" />
+                <animation-folder expanded="1">
+                    <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6158178042584957" speed="5">
+                        <frame duration="1" hotspotX="0.500682" hotspotY="0.500498">
+                            <collision-poly>
+                                <point x="0.132333" y="0.878607" />
+                                <point x="0.81719" y="0.891542" />
+                                <point x="0.813097" y="1" />
+                                <point x="0.167804" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -95,7 +112,7 @@
                 </animation-folder>
             </object-type>
         </object-folder>
-        <object-folder expanded="1" name="menu_transicao">
+        <object-folder expanded="0" name="menu_transicao">
             <object-folder expanded="0" name="Icon_botoes">
                 <object-type name="articulacao" sid="5669312951074069">
                     <plugin id="Sprite" />
@@ -211,7 +228,7 @@
                     </instance-variables>
                 </object-type>
             </object-folder>
-            <object-folder expanded="1" name="click_botoes">
+            <object-folder expanded="0" name="click_botoes">
                 <object-type name="pe_esquerdo" sid="2918125309215409">
                     <plugin id="Sprite" />
                     <animation-folder expanded="1">
@@ -579,8 +596,71 @@
         <object-type name="Keyboard" sid="6395358726896594">
             <plugin id="Keyboard" />
         </object-type>
-        <object-type name="Text" sid="9715144128189489">
-            <plugin id="Text" />
+        <object-type name="top2" sid="983594402091455">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4532290672265184" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="home2" sid="7768185437155177">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7463890874825686" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Browser" sid="9944489999235604">
+            <plugin id="Browser" />
+        </object-type>
+        <object-type name="Configurações" sid="1243152642538279">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="133346003484703" speed="5">
+                    <frame duration="1" hotspotX="0.500682" hotspotY="0.500498" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="TimerBox" sid="7038292649321534">
+            <plugin id="TextBox" />
+        </object-type>
+        <object-type name="Cabeca2" sid="5470438152728935">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4471657148963016" speed="5">
+                    <frame duration="1" hotspotX="0.501577" hotspotY="0.506024">
+                        <collision-poly>
+                            <point x="0.0347003" y="0.13253" />
+                            <point x="0.940063" y="0.228916" />
+                            <point x="0.968454" y="0.493976" />
+                            <point x="0.902208" y="0.626506" />
+                            <point x="0.0630915" y="0.759036" />
+                            <point x="0.00315457" y="0.493976" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Inervacao2" sid="1269125543818085">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="3635844917314348" speed="5">
+                    <frame duration="1" hotspotX="0.502242" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0493274" y="0.229167" />
+                            <point x="0.497758" y="0.166667" />
+                            <point x="0.959641" y="0.1875" />
+                            <point x="1" y="0.5" />
+                            <point x="0.955157" y="0.791667" />
+                            <point x="0.497758" y="0.8125" />
+                            <point x="0.0493274" y="0.770833" />
+                            <point x="0" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families>
@@ -658,24 +738,46 @@
         </family>
     </families>
     <layout-folder expanded="1">
-        <layout>Inicial.xml</layout>
-        <layout>Transicao.xml</layout>
+        <layout-folder expanded="1" name="Inervacao">
+            <layout>InervacaoCabeça.xml</layout>
+        </layout-folder>
+        <layout-folder expanded="1" name="Articulacao" />
+        <layout-folder expanded="1" name="Ossos" />
+        <layout-folder expanded="1" name="Irrigacao" />
+        <layout-folder expanded="1" name="Musculos" />
+        <layout-folder expanded="1" name="Simulado" />
+        <layout-folder expanded="1" name="Principais">
+            <layout>Inicial.xml</layout>
+            <layout>Transicao.xml</layout>
+            <layout>Sobre.xml</layout>
+            <layout>Configuracao.xml</layout>
+        </layout-folder>
     </layout-folder>
     <event-folder expanded="1">
         <event-folder expanded="0" name="Inervacao">
-            <event-sheet>simulado.xml</event-sheet>
+            <event-sheet>InervacaoCabeça.xml</event-sheet>
         </event-folder>
-        <event-sheet>Inicial.xml</event-sheet>
-        <event-sheet>Transicao.xml</event-sheet>
+        <event-folder expanded="1" name="Articulacao" />
+        <event-folder expanded="1" name="Ossos" />
+        <event-folder expanded="1" name="Irrigacao" />
+        <event-folder expanded="1" name="Musculo" />
+        <event-folder expanded="1" name="Simulado" />
+        <event-folder expanded="1" name="Principais">
+            <event-sheet>Inicial.xml</event-sheet>
+            <event-sheet>Transicao.xml</event-sheet>
+            <event-sheet>Sobre.xml</event-sheet>
+            <event-sheet>Configuracao.xml</event-sheet>
+        </event-folder>
     </event-folder>
     <global-instances>
         <global-instance type="Mouse" uid="4" />
         <global-instance type="Keyboard" uid="5" />
+        <global-instance type="Browser" uid="40" />
     </global-instances>
     <sounds-folder expanded="1" />
     <music-folder expanded="1" />
-    <files-folder expanded="1">
-        <file-folder expanded="0" name="Icons">
+    <files-folder expanded="0">
+        <file-folder expanded="1" name="Icons">
             <file name="icon-16.png" />
             <file name="icon-32.png" />
             <file name="icon-114.png" />

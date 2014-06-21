@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Configuracao</name>
+    <events>
+        <variable constant="0" name="Timer" sid="4228692411578584" static="0" type="number">50</variable>
+        <event-block sid="4070187481600841">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="4432750091566262" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Set placeholder" sid="9346978928551259" type="TimerBox">
+                    <param id="0" name="Placeholder">Timer &amp; &quot;s&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="9946534352873163" type="TimerBox">
+                    <param id="0" name="Property name">&quot;font-size&quot;</param>
+                    <param id="1" name="Value">&quot;2em&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="8009073934748494" type="TimerBox">
+                    <param id="0" name="Property name">&quot;border-style&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+                <action id="7" name="Set CSS style" sid="4898884227093679" type="TimerBox">
+                    <param id="0" name="Property name">&quot;outline-style&quot;</param>
+                    <param id="1" name="Value">&quot;none&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="470827438908976">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="5016788790120523" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">home2</param>
+                </condition>
+                <condition id="0" inverted="1" name="Compare text" sid="8393393409424862" type="TimerBox">
+                    <param id="0" name="Text">&quot;&quot;</param>
+                    <param id="1" name="Case">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="9617950695589703" type="System">
+                    <param id="0" name="Layout">Inicial</param>
+                </action>
+                <action id="-9" name="Set value" sid="1604305831999483" type="System">
+                    <param id="0" name="Variable">Timer</param>
+                    <param id="1" name="Value">TimerBox.Text</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="3843280891249623">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="972500451405893" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">home2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="4191605607670374" type="System">
+                    <param id="0" name="Layout">Inicial</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
