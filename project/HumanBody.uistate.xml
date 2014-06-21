@@ -10,7 +10,11 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout active="1">InervacaoCabeça</layout>
+        <layout>InervacaoCabeça</layout>
+        <layout>ArticulacaoCabeça</layout>
+        <layout>Configuracao</layout>
+        <event-sheet>InervacaoCabeça</event-sheet>
+        <event-sheet active="1">ArticulacaoCabeca</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -18,7 +22,7 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <property expanded="1" name="Window Size" />
         <property expanded="1" name="Configuration Settings" />
     </properties>
-    <families-expanded root="0">
+    <families-expanded root="1">
         <family expanded="0" name="botoes" />
         <family expanded="0" name="body" />
         <family expanded="0" name="menus" />

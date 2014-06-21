@@ -1,33 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
-    <name>InervacaoCabeça</name>
+    <name>ArticulacaoCabeca</name>
     <events>
-        <event-block sid="7301175859175786">
+        <event-block sid="9988714154037119">
             <conditions>
-                <condition id="6" name="On object clicked" sid="3696960986752549" type="Mouse">
+                <condition id="6" name="On object clicked" sid="106276853968823" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">menus2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="5022867764165658" type="System">
+                <action id="-2" name="Go to layout" sid="4230762086792448" type="System">
                     <param id="0" name="Layout">Transicao</param>
                 </action>
-                <action id="18" name="Maximize" sid="2554319462949883" type="NodeWebkit" />
             </actions>
         </event-block>
-        <event-block sid="5078851433705344">
+        <event-block sid="3158652812962179">
             <conditions>
-                <condition id="6" name="On object clicked" sid="67565419169768" type="Mouse">
+                <condition id="6" name="On object clicked" sid="145924790653294" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
                     <param id="2" name="Object clicked">home2</param>
                 </condition>
             </conditions>
             <actions>
-                <action id="-2" name="Go to layout" sid="941397936957811" type="System">
+                <action id="-2" name="Go to layout" sid="9062030133219987" type="System">
                     <param id="0" name="Layout">Inicial</param>
                 </action>
             </actions>

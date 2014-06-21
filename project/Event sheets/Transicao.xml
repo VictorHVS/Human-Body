@@ -8,7 +8,7 @@
                 <condition id="6" name="On object clicked" sid="5158184413625428" type="Mouse">
                     <param id="0" name="Mouse button">0</param>
                     <param id="1" name="Click type">0</param>
-                    <param id="2" name="Object clicked">home</param>
+                    <param id="2" name="Object clicked">home2</param>
                 </condition>
             </conditions>
             <actions>
@@ -76,20 +76,6 @@
                             <param id="0" name="Text">Option.Text &amp; menus.AnimationName</param>
                         </action>
                     </actions>
-                </event-block>
-                <event-block sid="3274839935219813">
-                    <conditions>
-                        <condition id="6" name="On object clicked" sid="1307464009751386" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">simulado</param>
-                        </condition>
-                        <condition id="0" inverted="1" name="Compare text" sid="5133897429348819" type="Option">
-                            <param id="0" name="Text to compare">&quot;mão&quot;</param>
-                            <param id="1" name="Case sensitivity">0</param>
-                        </condition>
-                    </conditions>
-                    <actions />
                 </event-block>
             </sub-events>
         </event-group>
