@@ -10,9 +10,8 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>OssosCabeça</layout>
-        <layout>ArticulacaoCabeça</layout>
-        <event-sheet active="1">OssosCabeca</event-sheet>
+        <layout>SimuladoCabeça</layout>
+        <event-sheet active="1">SimuladoCabeca</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />
@@ -28,5 +27,6 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <family expanded="0" name="clicks" />
         <family expanded="0" name="infeior" />
         <family expanded="0" name="Slide" />
+        <family expanded="0" name="TextoSlide" />
     </families-expanded>
 </c2uistate>

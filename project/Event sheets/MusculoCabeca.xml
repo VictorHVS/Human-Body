@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>MusculoCabeca</name>
+    <events>
+        <event-block sid="2137277092331345">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5035170130325227" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="814078729175724" type="Slide" />
+                <action id="-9" name="Set value" sid="3606401139518145" type="System">
+                    <param id="0" name="Variable">ImagemSlide</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="80895647931657">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="7009739085641281" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set position to another object" sid="6227444557452892" type="TextoSlide">
+                    <param id="0" name="Object">fundo_texto2</param>
+                    <param id="1" name="Image point (optional)">0</param>
+                </action>
+                <action id="2" name="Stop" sid="5292023910954209" type="TextoSlide" />
+            </actions>
+        </event-block>
+        <event-group description="" sid="6232212195240275" title="BotoesPrincipais3">
+            <sub-events>
+                <event-block sid="3246592823591213">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="557100218275099" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">menus2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4155189041107646" type="System">
+                            <param id="0" name="Layout">Transicao</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7417058211245278">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="9709363543046232" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">home2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="8548011945485926" type="System">
+                            <param id="0" name="Layout">Inicial</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="5387727151006693" title="avancar3">
+            <sub-events>
+                <event-block sid="6126948855178331">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="7504481678739215" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">next_img</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="155811948589814">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="8599205190995584" type="TextoSlide">
+                                    <param id="0" name="Comparison">0</param>
+                                    <param id="1" name="Number">TextoSlide.AnimationFrameCount - 1</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6264709367982485" type="Slide">
+                                    <param id="0" name="Frame number">Slide.AnimationFrame+1</param>
+                                </action>
+                                <action id="-10" name="Add to" sid="4622260052249142" type="System">
+                                    <param id="0" name="Variable">ImagemSlide</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="7630831661439307" type="TextoSlide">
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;ImagemSlide</param>
+                                    <param id="1" name="From">1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="1483126319233611">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="6224709437043023" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="7897574900046224" type="TextoSlide">
+                                    <param id="0" name="Frame number">TextoSlide.AnimationFrame+1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="9510576202988584" title="voltar3">
+            <sub-events>
+                <event-block sid="525332152519682">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="4210851503390075" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">back_img</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                    <sub-events>
+                        <event-block sid="6577618350620248">
+                            <conditions>
+                                <condition id="3" name="Compare frame" sid="2089636353048278" type="TextoSlide">
+                                    <param id="0" name="Comparison">3</param>
+                                    <param id="1" name="Number">0</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6317326828179151" type="Slide">
+                                    <param id="0" name="Frame number">Slide.AnimationFrame-1</param>
+                                </action>
+                                <action id="-11" name="Subtract from" sid="4011575017098407" type="System">
+                                    <param id="0" name="Variable">ImagemSlide</param>
+                                    <param id="1" name="Value">1</param>
+                                </action>
+                                <action id="4" name="Set animation" sid="3314340268460499" type="TextoSlide">
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;ImagemSlide</param>
+                                    <param id="1" name="From">0</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                        <event-block sid="8396199036527076">
+                            <conditions>
+                                <condition id="-22" name="Else" sid="3704746913888046" type="System" />
+                            </conditions>
+                            <actions>
+                                <action id="5" name="Set frame" sid="6168115880344673" type="TextoSlide">
+                                    <param id="0" name="Frame number">TextoSlide.AnimationFrame-1</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+            </sub-events>
+        </event-group>
+    </events>
+</c2eventsheet>
