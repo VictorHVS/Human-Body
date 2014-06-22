@@ -3,6 +3,7 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>Inicial</name>
     <events>
+        <variable constant="0" name="Timer" sid="4228692411578584" static="0" type="number">50</variable>
         <event-group description="" sid="2013026384201701" title="Animation">
             <sub-events>
                 <event-block sid="1920401543471809">
