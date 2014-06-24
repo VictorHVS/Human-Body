@@ -4,6 +4,16 @@
     <name>Inicial</name>
     <events>
         <variable constant="0" name="Timer" sid="4228692411578584" static="0" type="number">50</variable>
+        <event-block sid="3312459107160482">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="5482687664555154" type="System" />
+            </conditions>
+            <actions>
+                <action id="10" name="Request fullscreen" sid="9448024261891959" type="Browser">
+                    <param id="0" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
         <event-group description="" sid="2013026384201701" title="Animation">
             <sub-events>
                 <event-block sid="1920401543471809">

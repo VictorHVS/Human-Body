@@ -94,6 +94,48 @@
                     <param id="0" name="X">9</param>
                     <param id="1" name="Value">&quot;B) Correlação clínica&quot;</param>
                 </action>
+                <action id="0" name="Clear" sid="427010976417504" type="RespostasA" />
+                <action id="0" name="Clear" sid="5140828650692885" type="RespostasB" />
+                <action id="2" name="Set at X" sid="6825200761272944" type="Respostas">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;A) Sutura escamosa&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Ossos parietal e temporal&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="8437091111383273" type="Respostas">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;A) Aponeurose epicrânica&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Eleva os supercílios e a pele da testa&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="4031391435472028" type="Respostas">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;A) N. oftálmico&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Nn. nasociliar, frontal e lacrimal&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="2890515290706231" type="Respostas">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;A) A. basilar&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Lobo frontal&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="9734639097678236" type="Respostas">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;A. carótida interna&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Hemisférios cerebrais, exceto os lobos occipitais&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="7917670436604318" type="Respostas">
+                    <param id="0" name="X">5</param>
+                    <param id="1" name="Value">&quot;A) Anel tendíneo comum&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Abaixa, abduz e gira o bulbo do olho medialmente&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="6615103054854497" type="Respostas">
+                    <param id="0" name="X">6</param>
+                    <param id="1" name="Value">&quot;A) A. carótidas comum&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Aa. carótidas interna e externa&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="1675696334714234" type="Respostas">
+                    <param id="0" name="X">7</param>
+                    <param id="1" name="Value">&quot;A) Sulco central&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Giros pré-central e pós-central&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="2555884187184739" type="Respostas">
+                    <param id="0" name="X">8</param>
+                    <param id="1" name="Value">&quot;A) Forame magno&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Nn. acessórios e aa. vertebrais&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="8141897866755059" type="Respostas">
+                    <param id="0" name="X">9</param>
+                    <param id="1" name="Value">&quot;A) Forame infra-orbital&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) Fratura da maxila&quot;</param>
+                </action>
             </actions>
         </event-block>
         <event-block sid="4990653264906065">
@@ -112,6 +154,9 @@
                 </action>
                 <action id="0" name="Set text" sid="4788178922484655" type="LetraB">
                     <param id="0" name="Text">PerguntasB.At(Slide.AnimationFrame)</param>
+                </action>
+                <action id="0" name="Set text" sid="6935473743250487" type="respost">
+                    <param id="0" name="Text">Respostas.At(Slide.AnimationFrame)</param>
                 </action>
             </actions>
         </event-block>
@@ -203,6 +248,12 @@
                         <action id="0" name="Set text" sid="3658379518207306" type="box_RespostaB">
                             <param id="0" name="Text">RespostasB.At(Slide.AnimationFrame)</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="1331712476163764" type="fundo_resposta">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="6096206312024817" type="respost">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -239,6 +290,12 @@
                         <action id="0" name="Set text" sid="3379738020624943" type="box_RespostaB">
                             <param id="0" name="Text">RespostasB.At(Slide.AnimationFrame)</param>
                         </action>
+                        <action id="-15" name="Set visible" sid="2073100269737812" type="fundo_resposta">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3386181185402915" type="respost">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
                     </actions>
                 </event-block>
             </sub-events>
@@ -259,7 +316,51 @@
                     <param id="0" name="Variable">TimerSimulado</param>
                     <param id="1" name="Value">Timer</param>
                 </action>
+                <action id="-15" name="Set visible" sid="6835957967115718" type="fundo_resposta">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="6962810310326863" type="respost">
+                    <param id="0" name="Visibility">0</param>
+                </action>
             </actions>
+        </event-block>
+        <event-block sid="7880822604880905">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4590644247874109" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">eye</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="716213396350651">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="3031558680706574" type="fundo_resposta" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="1317090775178439" type="fundo_resposta">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2847771526965525" type="respost">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7783829983957308">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="888841881470215" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="8299882116623021" type="fundo_resposta">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1630640077365801" type="respost">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
         </event-block>
     </events>
 </c2eventsheet>
