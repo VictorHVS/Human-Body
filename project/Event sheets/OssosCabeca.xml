@@ -3,32 +3,31 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>OssosCabeca</name>
     <events>
-        <variable constant="0" name="ImagemSlide" sid="5906818005043598" static="0" type="number">1</variable>
-        <event-block sid="4347633216114189">
+        <event-block sid="6511306787238371">
             <conditions>
-                <condition id="-2" name="On start of layout" sid="5184861001472741" type="System" />
+                <condition id="-2" name="On start of layout" sid="5896277981046247" type="System" />
             </conditions>
             <actions>
-                <action id="2" name="Stop" sid="8225114261940164" type="Slide" />
-                <action id="-9" name="Set value" sid="3030413898778703" type="System">
-                    <param id="0" name="Variable">ImagemSlide</param>
+                <action id="2" name="Stop" sid="8373758229521103" type="Slide" />
+                <action id="-9" name="Set value" sid="6468034198864772" type="System">
+                    <param id="0" name="Variable">atualFrameTexto</param>
                     <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
-        <event-block sid="9644245443878021">
+        <event-block sid="925713811617991">
             <conditions>
-                <condition id="-1" name="Every tick" sid="9631452327140148" type="System" />
+                <condition id="-1" name="Every tick" sid="4067289490164969" type="System" />
             </conditions>
             <actions>
-                <action id="-4" name="Set position to another object" sid="7731390401848276" type="texto2">
+                <action id="-4" name="Set position to another object" sid="8809975335760096" type="TextoSlide">
                     <param id="0" name="Object">fundo_texto2</param>
                     <param id="1" name="Image point (optional)">0</param>
                 </action>
-                <action id="2" name="Stop" sid="6094530649617388" type="texto2" />
+                <action id="2" name="Stop" sid="4683442557579534" type="TextoSlide" />
             </actions>
         </event-block>
-        <event-group description="" sid="145772812784049" title="BotoesPrincipais">
+        <event-group description="" sid="7886461463609336" title="BotoesPrincipais6">
             <sub-events>
                 <event-block sid="3246592823591213">
                     <conditions>
@@ -60,7 +59,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="6432981043305855" title="avancar">
+        <event-group description="" sid="4361670300830822" title="avancar6">
             <sub-events>
                 <event-block sid="6126948855178331">
                     <conditions>
@@ -69,19 +68,14 @@
                             <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">next_img</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="9053941551311571" type="System">
-                            <param id="0" name="Variable">ImagemSlide</param>
-                            <param id="1" name="Comparison">2</param>
-                            <param id="2" name="Value">7</param>
-                        </condition>
                     </conditions>
                     <actions />
                     <sub-events>
                         <event-block sid="155811948589814">
                             <conditions>
-                                <condition id="3" name="Compare frame" sid="8599205190995584" type="texto2">
+                                <condition id="3" name="Compare frame" sid="8599205190995584" type="TextoSlide">
                                     <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">texto2.AnimationFrameCount - 1</param>
+                                    <param id="1" name="Number">TextoSlide.AnimationFrameCount - 1</param>
                                 </condition>
                             </conditions>
                             <actions>
@@ -89,11 +83,11 @@
                                     <param id="0" name="Frame number">Slide.AnimationFrame+1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="4622260052249142" type="System">
-                                    <param id="0" name="Variable">ImagemSlide</param>
+                                    <param id="0" name="Variable">atualFrameTexto</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="7630831661439307" type="texto2">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;ImagemSlide</param>
+                                <action id="4" name="Set animation" sid="7630831661439307" type="TextoSlide">
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;atualFrameTexto</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                             </actions>
@@ -103,8 +97,8 @@
                                 <condition id="-22" name="Else" sid="6224709437043023" type="System" />
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="7897574900046224" type="texto2">
-                                    <param id="0" name="Frame number">texto2.AnimationFrame+1</param>
+                                <action id="5" name="Set frame" sid="7897574900046224" type="TextoSlide">
+                                    <param id="0" name="Frame number">TextoSlide.AnimationFrame+1</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -112,7 +106,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="2516178181476735" title="voltar">
+        <event-group description="" sid="7385592198410173" title="voltar6">
             <sub-events>
                 <event-block sid="525332152519682">
                     <conditions>
@@ -121,17 +115,12 @@
                             <param id="1" name="Click type">0</param>
                             <param id="2" name="Object clicked">back_img</param>
                         </condition>
-                        <condition id="-14" name="Compare variable" sid="7833582584654061" type="System">
-                            <param id="0" name="Variable">ImagemSlide</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">1</param>
-                        </condition>
                     </conditions>
                     <actions />
                     <sub-events>
                         <event-block sid="6577618350620248">
                             <conditions>
-                                <condition id="3" name="Compare frame" sid="2089636353048278" type="texto2">
+                                <condition id="3" name="Compare frame" sid="2089636353048278" type="TextoSlide">
                                     <param id="0" name="Comparison">3</param>
                                     <param id="1" name="Number">0</param>
                                 </condition>
@@ -141,12 +130,12 @@
                                     <param id="0" name="Frame number">Slide.AnimationFrame-1</param>
                                 </action>
                                 <action id="-11" name="Subtract from" sid="4011575017098407" type="System">
-                                    <param id="0" name="Variable">ImagemSlide</param>
+                                    <param id="0" name="Variable">atualFrameTexto</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
-                                <action id="4" name="Set animation" sid="3314340268460499" type="texto2">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;ImagemSlide</param>
-                                    <param id="1" name="From">1</param>
+                                <action id="4" name="Set animation" sid="3314340268460499" type="TextoSlide">
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;atualFrameTexto</param>
+                                    <param id="1" name="From">0</param>
                                 </action>
                             </actions>
                         </event-block>
@@ -155,11 +144,8 @@
                                 <condition id="-22" name="Else" sid="3704746913888046" type="System" />
                             </conditions>
                             <actions>
-                                <action id="5" name="Set frame" sid="6371635633678458" type="texto2">
-                                    <param id="0" name="Frame number">texto2.AnimationFrameCount</param>
-                                </action>
-                                <action id="5" name="Set frame" sid="6168115880344673" type="texto2">
-                                    <param id="0" name="Frame number">texto2.AnimationFrame-1</param>
+                                <action id="5" name="Set frame" sid="6168115880344673" type="TextoSlide">
+                                    <param id="0" name="Frame number">TextoSlide.AnimationFrame-1</param>
                                 </action>
                             </actions>
                         </event-block>

@@ -10,10 +10,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
         <display name="HTML5" />
     </configurations>
     <open-tabs>
-        <layout>SimuladoCabeça</layout>
-        <layout active="1">Inicial</layout>
-        <event-sheet>SimuladoCabeca</event-sheet>
-        <event-sheet>Inicial</event-sheet>
+        <layout active="1">MusculoPescoço</layout>
+        <event-sheet>SlideMODAFOCA</event-sheet>
+        <event-sheet>MusculoCabeca</event-sheet>
+        <event-sheet>OssosCabeca</event-sheet>
     </open-tabs>
     <properties>
         <property expanded="1" name="About" />

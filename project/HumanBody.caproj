@@ -1388,6 +1388,193 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="pesco" sid="4128030254538073">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9304308050439043" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506173">
+                        <collision-poly>
+                            <point x="0.00265957" y="0.0123457" />
+                            <point x="0.973404" y="0.123457" />
+                            <point x="0.99734" y="0.493827" />
+                            <point x="0.946809" y="0.753086" />
+                            <point x="0.12234" y="0.432099" />
+                            <point x="0" y="0.493827" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Articulação2" sid="5830684470561">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8646965539609718" speed="5">
+                    <frame duration="1" hotspotX="0.501779" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.0391459" y="0.229167" />
+                            <point x="0.498221" y="0.166667" />
+                            <point x="0.967972" y="0.1875" />
+                            <point x="1" y="0.5" />
+                            <point x="0.964413" y="0.791667" />
+                            <point x="0.498221" y="0.625" />
+                            <point x="0.0569395" y="0.666667" />
+                            <point x="0.0213523" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="texto5" sid="1109689143327273">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8568291868716271" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500652">
+                        <collision-poly>
+                            <point x="0.00561798" y="0.00391134" />
+                            <point x="0.5" y="0.00912647" />
+                            <point x="0.61985" y="0.264668" />
+                            <point x="0.632959" y="0.499348" />
+                            <point x="0.764045" y="0.835724" />
+                            <point x="0.5" y="0.924381" />
+                            <point x="0.00374532" y="0.997392" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pescoco_Articulacao" sid="1382907790584839">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="4435758078671723" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.503521" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pesco2" sid="2393490082692699">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="9947977165728353" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.506173">
+                        <collision-poly>
+                            <point x="0.00265957" y="0.0123457" />
+                            <point x="0.973404" y="0.123457" />
+                            <point x="0.99734" y="0.493827" />
+                            <point x="0.946809" y="0.753086" />
+                            <point x="0.12234" y="0.432099" />
+                            <point x="0" y="0.493827" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="pescoco_musculo" sid="7134744815401939">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="2" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="9466680816927665" speed="5">
+                    <frame duration="1" hotspotX="0.500573" hotspotY="0.501326" />
+                    <frame duration="1" hotspotX="0.500608" hotspotY="0.501176" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="3765807450402998" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501577" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="7424850074449552" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501333" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide4" pingpong="0" repeatcount="1" repeatto="0" sid="1582668493457668" speed="5">
+                    <frame duration="1" hotspotX="0.501792" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide5" pingpong="0" repeatcount="1" repeatto="0" sid="3555572302905417" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="2" loop="0" name="slide6" pingpong="0" repeatcount="1" repeatto="0" sid="3224198801256796" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501441" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.502488" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="texto6" sid="6013453638269426">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="926813836237158" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0485437" y="0.212766" />
+                            <point x="0.5" y="0.255319" />
+                            <point x="0.941748" y="0.255319" />
+                            <point x="0.980583" y="0.489362" />
+                            <point x="0.946602" y="0.765957" />
+                            <point x="0.5" y="1" />
+                            <point x="0.0679612" y="0.702128" />
+                            <point x="0.00485437" y="0.489362" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="2648767436087266" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0196078" y="0.0204082" />
+                            <point x="0.5" y="0.130612" />
+                            <point x="0.866667" y="0.138776" />
+                            <point x="0.65098" y="0.5" />
+                            <point x="0.923529" y="0.920408" />
+                            <point x="0.5" y="1" />
+                            <point x="0.170588" y="0.822449" />
+                            <point x="0.170588" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="8397855924204503" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0180505" y="0.0123001" />
+                            <point x="0.5" y="0.269373" />
+                            <point x="0.882671" y="0.0799508" />
+                            <point x="0.444043" y="0.499385" />
+                            <point x="0.884477" y="0.921279" />
+                            <point x="0.5" y="0.99139" />
+                            <point x="0.0234657" y="0.98401" />
+                            <point x="0.440433" y="0.499385" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide4" pingpong="0" repeatcount="1" repeatto="0" sid="7763641211097458" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0179533" y="0.0163666" />
+                            <point x="0.499102" y="0.409165" />
+                            <point x="0.885099" y="0.104746" />
+                            <point x="0.987433" y="0.988543" />
+                            <point x="0.499102" y="0.986907" />
+                            <point x="0.102334" y="0.90671" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide5" pingpong="0" repeatcount="1" repeatto="0" sid="1928343186949392" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+                <animation framecount="8" loop="0" name="slide6" pingpong="0" repeatcount="1" repeatto="0" sid="1978991796543211" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.019084" y="0.018797" />
+                            <point x="0.5" y="0.109023" />
+                            <point x="0.870229" y="0.12782" />
+                            <point x="0.914122" y="0.5" />
+                            <point x="0.935115" y="0.93609" />
+                            <point x="0.5" y="0.93985" />
+                            <point x="0.0267176" y="0.973684" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                    <frame duration="1" hotspotX="0" hotspotY="0" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="botoes" plugin-id="Sprite" sid="8188564402915382">
@@ -1468,6 +1655,8 @@
                 <member>cabeca_musculo</member>
                 <member>cabeca_simulado</member>
                 <member>Cabeça_Ossos</member>
+                <member>pescoco_Articulacao</member>
+                <member>pescoco_musculo</member>
             </members>
         </family>
         <family name="TextoSlide" plugin-id="Sprite" sid="1863497969072857">
@@ -1476,6 +1665,7 @@
                 <member>texto2</member>
                 <member>texto3</member>
                 <member>texto4</member>
+                <member>texto6</member>
             </members>
         </family>
     </families>
@@ -1485,20 +1675,22 @@
         </layout-folder>
         <layout-folder expanded="0" name="Articulacao">
             <layout>ArticulacaoCabeça.xml</layout>
+            <layout>ArticulacaoPescoço.xml</layout>
         </layout-folder>
-        <layout-folder expanded="0" name="Ossos">
+        <layout-folder expanded="1" name="Ossos">
             <layout>OssosCabeça.xml</layout>
         </layout-folder>
         <layout-folder expanded="0" name="Irrigacao">
             <layout>IrrigacaoCabeça.xml</layout>
         </layout-folder>
-        <layout-folder expanded="0" name="Musculos">
+        <layout-folder expanded="1" name="Musculos">
             <layout>MusculoCabeça.xml</layout>
+            <layout>MusculoPescoço.xml</layout>
         </layout-folder>
         <layout-folder expanded="0" name="Simulado">
             <layout>SimuladoCabeça.xml</layout>
         </layout-folder>
-        <layout-folder expanded="1" name="Principais">
+        <layout-folder expanded="0" name="Principais">
             <layout>Inicial.xml</layout>
             <layout>Transicao.xml</layout>
             <layout>Sobre.xml</layout>
@@ -1509,25 +1701,27 @@
         <event-folder expanded="0" name="Inervacao">
             <event-sheet>InervacaoCabeça.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="0" name="Articulacao">
+        <event-folder expanded="1" name="Articulacao">
             <event-sheet>ArticulacaoCabeca.xml</event-sheet>
+            <event-sheet>ArticulacaoPescoço.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="0" name="Ossos">
+        <event-folder expanded="1" name="Ossos">
             <event-sheet>OssosCabeca.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="0" name="Irrigacao">
+        <event-folder expanded="1" name="Irrigacao">
             <event-sheet>IrrigacaoCabeca.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="0" name="Musculo">
+        <event-folder expanded="1" name="Musculo">
             <event-sheet>MusculoCabeca.xml</event-sheet>
+            <event-sheet>SlideMODAFOCA.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="1" name="Principais">
+        <event-folder expanded="0" name="Principais">
             <event-sheet>Inicial.xml</event-sheet>
             <event-sheet>Transicao.xml</event-sheet>
             <event-sheet>Sobre.xml</event-sheet>
             <event-sheet>Configuracao.xml</event-sheet>
         </event-folder>
-        <event-folder expanded="1" name="Simulado">
+        <event-folder expanded="0" name="Simulado">
             <event-sheet>SimuladoCabeca.xml</event-sheet>
         </event-folder>
     </event-folder>

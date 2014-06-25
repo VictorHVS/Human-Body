@@ -10,7 +10,7 @@
             <actions>
                 <action id="2" name="Stop" sid="814078729175724" type="Slide" />
                 <action id="-9" name="Set value" sid="3606401139518145" type="System">
-                    <param id="0" name="Variable">ImagemSlide</param>
+                    <param id="0" name="Variable">atualFrameTexto</param>
                     <param id="1" name="Value">1</param>
                 </action>
             </actions>
@@ -83,11 +83,11 @@
                                     <param id="0" name="Frame number">Slide.AnimationFrame+1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="4622260052249142" type="System">
-                                    <param id="0" name="Variable">ImagemSlide</param>
+                                    <param id="0" name="Variable">atualFrameTexto</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="7630831661439307" type="TextoSlide">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;ImagemSlide</param>
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;atualFrameTexto</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                             </actions>
@@ -130,11 +130,11 @@
                                     <param id="0" name="Frame number">Slide.AnimationFrame-1</param>
                                 </action>
                                 <action id="-11" name="Subtract from" sid="4011575017098407" type="System">
-                                    <param id="0" name="Variable">ImagemSlide</param>
+                                    <param id="0" name="Variable">atualFrameTexto</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="3314340268460499" type="TextoSlide">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;ImagemSlide</param>
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;atualFrameTexto</param>
                                     <param id="1" name="From">0</param>
                                 </action>
                             </actions>
