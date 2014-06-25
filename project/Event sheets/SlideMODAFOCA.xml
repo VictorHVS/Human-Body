@@ -4,9 +4,11 @@
     <name>SlideMODAFOCA</name>
     <events>
         <variable constant="0" name="UltimoFrameTexto" sid="5911232315810445" static="0" type="number">0</variable>
+        <variable constant="0" name="PrimeiroFrameTexto" sid="9662108706417651" static="0" type="number">1</variable>
         <variable constant="0" name="UltimoFrameSlide" sid="4607745457844247" static="0" type="number">0</variable>
-        <variable constant="0" name="atualFrameTexto" sid="5906818005043598" static="0" type="number">1</variable>
-        <variable constant="0" name="AtualAnimation" sid="2562340913236784" static="0" type="number">1</variable>
+        <variable constant="0" name="PrimeiroFrameSlide" sid="5361107288820212" static="0" type="number">1</variable>
+        <variable constant="0" name="AtualAnimationTexto" sid="5906818005043598" static="0" type="number">1</variable>
+        <variable constant="0" name="AtualAnimationSlide" sid="2562340913236784" static="0" type="number">1</variable>
         <variable constant="0" name="QtdSlideAnimation" sid="2611409378557382" static="0" type="number">1</variable>
         <event-block sid="4347633216114189">
             <conditions>
@@ -14,16 +16,32 @@
             </conditions>
             <actions>
                 <action id="-9" name="Set value" sid="3030413898778703" type="System">
-                    <param id="0" name="Variable">atualFrameTexto</param>
+                    <param id="0" name="Variable">AtualAnimationTexto</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-9" name="Set value" sid="9357952735640938" type="System">
-                    <param id="0" name="Variable">AtualAnimation</param>
+                    <param id="0" name="Variable">AtualAnimationSlide</param>
                     <param id="1" name="Value">1</param>
                 </action>
                 <action id="-9" name="Set value" sid="532632675575429" type="System">
                     <param id="0" name="Variable">QtdSlideAnimation</param>
-                    <param id="1" name="Value">6</param>
+                    <param id="1" name="Value">Slide.QtdSlide</param>
+                </action>
+                <action id="-9" name="Set value" sid="9105675089422361" type="System">
+                    <param id="0" name="Variable">UltimoFrameTexto</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="4841606207498818" type="System">
+                    <param id="0" name="Variable">UltimoFrameSlide</param>
+                    <param id="1" name="Value">0</param>
+                </action>
+                <action id="-9" name="Set value" sid="96512778094684" type="System">
+                    <param id="0" name="Variable">PrimeiroFrameSlide</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="-9" name="Set value" sid="9054122391499636" type="System">
+                    <param id="0" name="Variable">PrimeiroFrameTexto</param>
+                    <param id="1" name="Value">1</param>
                 </action>
             </actions>
         </event-block>
@@ -76,11 +94,6 @@
             <sub-events>
                 <event-block sid="5336389776546511">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="9151188151701418" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">next_img</param>
-                        </condition>
                         <condition id="3" name="Compare frame" sid="8052308655806996" type="Slide">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">slide.AnimationFrameCount - 1</param>
@@ -100,11 +113,6 @@
                 </event-block>
                 <event-block sid="1199177480335421">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="9079987731559404" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">next_img</param>
-                        </condition>
                         <condition id="3" name="Compare frame" sid="7731925541683091" type="TextoSlide">
                             <param id="0" name="Comparison">0</param>
                             <param id="1" name="Number">TextoSlide.AnimationFrameCount - 1</param>
@@ -122,6 +130,66 @@
                         </action>
                     </actions>
                 </event-block>
+                <event-block sid="6223591415180806">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="65789912040878" type="TextoSlide">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="4141869718324266" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameTexto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="8954468732014723" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="660011032779442">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="5480889410228714" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="7395593805658493" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="9418933828403011">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="7656243927088224" type="Slide">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="-14" name="Compare variable" sid="2033021946364749" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameSlide</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="2920915765850769" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameSlide</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="4921537487985486">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="1621536544684558" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="9427016129777366" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameSlide</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
                 <event-block sid="6126948855178331">
                     <conditions>
                         <condition id="6" name="On object clicked" sid="7504481678739215" type="Mouse">
@@ -130,7 +198,7 @@
                             <param id="2" name="Object clicked">next_img</param>
                         </condition>
                         <condition id="-14" name="Compare variable" sid="709270192281294" type="System">
-                            <param id="0" name="Variable">AtualAnimation</param>
+                            <param id="0" name="Variable">AtualAnimationSlide</param>
                             <param id="1" name="Comparison">3</param>
                             <param id="2" name="Value">QtdSlideAnimation</param>
                         </condition>
@@ -178,19 +246,19 @@
                             </conditions>
                             <actions>
                                 <action id="-10" name="Add to" sid="9051299764087248" type="System">
-                                    <param id="0" name="Variable">atualFrameTexto</param>
+                                    <param id="0" name="Variable">AtualAnimationTexto</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="-10" name="Add to" sid="4622260052249142" type="System">
-                                    <param id="0" name="Variable">AtualAnimation</param>
+                                    <param id="0" name="Variable">AtualAnimationSlide</param>
                                     <param id="1" name="Value">1</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="7630831661439307" type="TextoSlide">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;atualFrameTexto</param>
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;AtualAnimationTexto</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                                 <action id="4" name="Set animation" sid="6309865778779106" type="Slide">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;AtualAnimation</param>
+                                    <param id="0" name="Animation">&quot;slide&quot;&amp;AtualAnimationSlide</param>
                                     <param id="1" name="From">1</param>
                                 </action>
                                 <action id="-9" name="Set value" sid="3315393144112368" type="System">
@@ -207,57 +275,98 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group collapsed="1" description="" sid="2516178181476735" title="voltar">
+        <event-group description="" sid="2516178181476735" title="voltar" />
+        <event-block sid="9951969273102936">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="1668211120869884" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">back_img</param>
+                </condition>
+                <condition id="-14" name="Compare variable" sid="5550943132926353" type="System">
+                    <param id="0" name="Variable">AtualAnimationSlide</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions />
             <sub-events>
-                <event-block sid="525332152519682">
+                <event-block sid="650988192374018">
                     <conditions>
-                        <condition id="6" name="On object clicked" sid="4210851503390075" type="Mouse">
-                            <param id="0" name="Mouse button">0</param>
-                            <param id="1" name="Click type">0</param>
-                            <param id="2" name="Object clicked">back_img</param>
-                        </condition>
-                        <condition id="-14" name="Compare variable" sid="7833582584654061" type="System">
-                            <param id="0" name="Variable">atualFrameTexto</param>
-                            <param id="1" name="Comparison">4</param>
-                            <param id="2" name="Value">0</param>
+                        <condition id="3" name="Compare frame" sid="8809768292905927" type="TextoSlide">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Number">0</param>
                         </condition>
                     </conditions>
-                    <actions />
-                    <sub-events>
-                        <event-block sid="6577618350620248">
-                            <conditions>
-                                <condition id="3" name="Compare frame" sid="2089636353048278" type="TextoSlide">
-                                    <param id="0" name="Comparison">0</param>
-                                    <param id="1" name="Number">0</param>
-                                </condition>
-                            </conditions>
-                            <actions>
-                                <action id="5" name="Set frame" sid="6317326828179151" type="Slide">
-                                    <param id="0" name="Frame number">Slide.AnimationFrame-1</param>
-                                </action>
-                                <action id="-11" name="Subtract from" sid="4011575017098407" type="System">
-                                    <param id="0" name="Variable">atualFrameTexto</param>
-                                    <param id="1" name="Value">1</param>
-                                </action>
-                                <action id="4" name="Set animation" sid="3314340268460499" type="TextoSlide">
-                                    <param id="0" name="Animation">&quot;slide&quot;&amp;atualFrameTexto</param>
-                                    <param id="1" name="From">1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                        <event-block sid="8396199036527076">
-                            <conditions>
-                                <condition id="-22" name="Else" sid="3704746913888046" type="System" />
-                            </conditions>
-                            <actions>
-                                <action id="5" name="Set frame" sid="6168115880344673" type="TextoSlide">
-                                    <param id="0" name="Frame number">TextoSlide.AnimationFrame-1</param>
-                                </action>
-                            </actions>
-                        </event-block>
-                    </sub-events>
+                    <actions>
+                        <action id="5" name="Set frame" sid="7552972306728617" type="TextoSlide">
+                            <param id="0" name="Frame number">TextoSlide.AnimationFrame-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="845997267213856">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="6744499470987439" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameTexto</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="8455270046366845" type="Slide">
+                            <param id="0" name="Comparison">4</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="6721620436807693" type="Slide">
+                            <param id="0" name="Frame number">Slide.AnimationFrame-1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="575616368695079">
+                    <conditions>
+                        <condition id="3" name="Compare frame" sid="3797041336741541" type="TextoSlide">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                        <condition id="3" name="Compare frame" sid="9544920998189426" type="Slide">
+                            <param id="0" name="Comparison">0</param>
+                            <param id="1" name="Number">0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="477978244187924" type="System">
+                            <param id="0" name="Variable">AtualAnimationSlide</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="-11" name="Subtract from" sid="4904973707449636" type="System">
+                            <param id="0" name="Variable">AtualAnimationTexto</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="6025238910980893" type="TextoSlide">
+                            <param id="0" name="Animation">&quot;slide&quot;&amp;AtualAnimationTexto</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="4" name="Set animation" sid="9369288328373783" type="Slide">
+                            <param id="0" name="Animation">&quot;slide&quot;&amp;AtualAnimationSlide</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="2738666847473511" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameSlide</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="3153397948655212" type="System">
+                            <param id="0" name="Variable">PrimeiroFrameTexto</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="3264058850717628" type="TextoSlide">
+                            <param id="0" name="Frame number">TextoSlide.AnimationFrameCount - 1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="3426429321770353" type="Slide">
+                            <param id="0" name="Frame number">Slide.AnimationFrameCount - 1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
-        </event-group>
+        </event-block>
     </events>
 </c2eventsheet>
