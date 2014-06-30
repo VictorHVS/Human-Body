@@ -88,5 +88,15 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="6413875278077052">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="2492410503131091" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="1" name="Close" sid="6817166973432958" type="Browser" />
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
