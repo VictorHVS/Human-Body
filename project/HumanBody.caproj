@@ -2510,7 +2510,7 @@
                             <point x="0.0109489" y="0.991655" />
                         </collision-poly>
                     </frame>
-                    <frame duration="1" hotspotX="0.500956" hotspotY="0.5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
                         <collision-poly>
                             <point x="0.00382409" y="0.00492611" />
                             <point x="0.499044" y="0.0197044" />
@@ -2570,10 +2570,10 @@
             <animation-folder expanded="1">
                 <animation framecount="2" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="2268628884560499" speed="5">
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
-                    <frame duration="1" hotspotX="0.502538" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.501292" hotspotY="0.493724" />
                 </animation>
                 <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="7348867148884273" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.500904" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -2608,6 +2608,354 @@
                 </animation>
             </animation-folder>
         </object-type>
+        <object-type name="quadrilMusculo" sid="8594253420001805">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="5797318383356283" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501424" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="2266443326939021" speed="5">
+                    <frame duration="1" hotspotX="0.501053" hotspotY="0.501618" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="2130367079291213" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="texto20" sid="5157710059306679">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="3657241964436714" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0292505" y="0.0224719" />
+                            <point x="0.499086" y="0.0196629" />
+                            <point x="0.753199" y="0.189607" />
+                            <point x="0.387569" y="0.5" />
+                            <point x="0.771481" y="0.824438" />
+                            <point x="0.499086" y="0.991573" />
+                            <point x="0.0182815" y="0.985955" />
+                            <point x="0.00548446" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="2121225255058764" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0299625" y="0.020915" />
+                            <point x="0.5" y="0.0196078" />
+                            <point x="0.749064" y="0.175163" />
+                            <point x="0.674157" y="0.499346" />
+                            <point x="0.827715" y="0.879739" />
+                            <point x="0.5" y="0.992157" />
+                            <point x="0.0187266" y="0.986928" />
+                            <point x="0.0786517" y="0.499346" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="1342449751387536" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0299625" y="0.0226308" />
+                            <point x="0.5" y="0.0212164" />
+                            <point x="0.696629" y="0.229137" />
+                            <point x="0.277154" y="0.499293" />
+                            <point x="0.773408" y="0.828854" />
+                            <point x="0.5" y="0.992928" />
+                            <point x="0.0187266" y="0.985856" />
+                            <point x="0.0786517" y="0.499293" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ombro" sid="746417686840226">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5707426125956009" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.507463">
+                        <collision-poly>
+                            <point x="0.0559006" y="0.268657" />
+                            <point x="0.5" y="0.0447761" />
+                            <point x="0.956522" y="0.208955" />
+                            <point x="0.978261" y="0.492537" />
+                            <point x="0.956522" y="0.791045" />
+                            <point x="0.5" y="0.970149" />
+                            <point x="0.0559006" y="0.731343" />
+                            <point x="0.0403727" y="0.492537" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite" sid="8711858830459028">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1621217788669396" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite2" sid="5179312273569135">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1651384020108576" speed="5">
+                    <frame duration="1" hotspotX="0.500914" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00548446" y="0.00753769" />
+                            <point x="0.989031" y="0.0150754" />
+                            <point x="0.88117" y="0.836683" />
+                            <point x="0.0109689" y="0.984925" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Ombro_articu" sid="8883433072133347">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="182498304748342" speed="5">
+                    <frame duration="1" hotspotX="0.500664" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="9413862537732516" speed="5">
+                    <frame duration="1" hotspotX="0.500652" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="texto21" sid="7763458287037146">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="1352284410221572" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0251572" y="0.275862" />
+                            <point x="0.949686" y="0.551724" />
+                            <point x="0.984277" y="0.482759" />
+                            <point x="0.977987" y="0.758621" />
+                            <point x="0.0125786" y="0.862069" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="9728478821714126" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0152091" y="0.0224719" />
+                            <point x="0.5" y="0.0308989" />
+                            <point x="0.739544" y="0.384831" />
+                            <point x="0.224335" y="0.5" />
+                            <point x="0.925856" y="0.890449" />
+                            <point x="0.5" y="0.983146" />
+                            <point x="0.0114068" y="0.983146" />
+                            <point x="0.222433" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="ossosOmbro" sid="1928719416500789">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="9263016275699146" speed="5">
+                    <frame duration="1" hotspotX="0.500671" hotspotY="0.5" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="5655148819742153" speed="5">
+                    <frame duration="1" hotspotX="0.500648" hotspotY="0.50108" />
+                </animation>
+                <animation framecount="1" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="5470579798839813" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500876" />
+                </animation>
+                <animation framecount="2" loop="0" name="slide4" pingpong="0" repeatcount="1" repeatto="0" sid="8213742017482271" speed="5">
+                    <frame duration="1" hotspotX="0.500885" hotspotY="0.50084" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="texto22" sid="3522940444698816">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="6143645350765682" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0255474" y="0.0721649" />
+                            <point x="0.5" y="0.0721649" />
+                            <point x="0.715328" y="0.804124" />
+                            <point x="0.992701" y="0.979381" />
+                            <point x="0.5" y="0.938144" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="3491228802907202" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0330189" y="0.0686275" />
+                            <point x="0.5" y="0.0686275" />
+                            <point x="0.603774" y="0.823529" />
+                            <point x="0.971698" y="0.941176" />
+                            <point x="0.5" y="0.852941" />
+                            <point x="0.0754717" y="0.843137" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="4096794521542489" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0292887" y="0.076087" />
+                            <point x="0.497908" y="0.076087" />
+                            <point x="0.665272" y="0.869565" />
+                            <point x="1" y="1" />
+                            <point x="0.497908" y="0.945652" />
+                            <point x="0" y="1" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="slide4" pingpong="0" repeatcount="1" repeatto="0" sid="6228913242791099" speed="5">
+                    <frame duration="1" hotspotX="0" hotspotY="0">
+                        <collision-poly>
+                            <point x="0.0146751" y="0.0152838" />
+                            <point x="0.498952" y="0.436681" />
+                            <point x="0.752621" y="0.257642" />
+                            <point x="0.937107" y="0.934498" />
+                            <point x="0.498952" y="0.936681" />
+                            <point x="0.0125786" y="0.9869" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite3" sid="7411235698172042">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="5750113559258251" speed="5">
+                    <frame duration="1" hotspotX="0.501176" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite4" sid="7721672532122672">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7768777542636035" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.501171">
+                        <collision-poly>
+                            <point x="0.00905797" y="0.0117096" />
+                            <point x="0.5" y="0.028103" />
+                            <point x="0.98913" y="0.0140515" />
+                            <point x="0.907609" y="0.498829" />
+                            <point x="0.936594" y="0.918033" />
+                            <point x="0.5" y="0.918033" />
+                            <point x="0.0108696" y="0.985949" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite5" sid="6692733135764647">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="1" loop="0" name="slide1" pingpong="0" repeatcount="1" repeatto="0" sid="603014654126276" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="0" name="slide2" pingpong="0" repeatcount="1" repeatto="0" sid="5359986893008661" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50065" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50077" />
+                    <frame duration="1" hotspotX="0.500732" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50073" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="0" name="slide3" pingpong="0" repeatcount="1" repeatto="0" sid="4276936594778175" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50065" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50077" />
+                    <frame duration="1" hotspotX="0.500732" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50073" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="0" name="slide4" pingpong="0" repeatcount="1" repeatto="0" sid="4177920385809025" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50065" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50077" />
+                    <frame duration="1" hotspotX="0.500732" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50073" hotspotY="0.5" />
+                </animation>
+                <animation framecount="5" loop="0" name="slide5" pingpong="0" repeatcount="1" repeatto="0" sid="8433497421022698" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50065" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.50077" />
+                    <frame duration="1" hotspotX="0.500732" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.50073" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Sprite6" sid="5259648291624418">
+            <plugin id="Sprite" />
+            <animation-folder expanded="1">
+                <animation framecount="6" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="7248916697692725" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00583658" y="0.00454545" />
+                            <point x="0.5" y="0.0166667" />
+                            <point x="0.81323" y="0.145455" />
+                            <point x="0.55642" y="0.5" />
+                            <point x="0.758755" y="0.812121" />
+                            <point x="0.5" y="0.943939" />
+                            <point x="0.0116732" y="0.990909" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500911" hotspotY="0.500645">
+                        <collision-poly>
+                            <point x="0.00546448" y="0.00387097" />
+                            <point x="0.499089" y="0.00903226" />
+                            <point x="0.71949" y="0.19871" />
+                            <point x="0.446266" y="0.499355" />
+                            <point x="0.830601" y="0.88" />
+                            <point x="0.499089" y="0.954839" />
+                            <point x="0.0200364" y="0.985806" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500924" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00554529" y="0.00707547" />
+                            <point x="0.499076" y="0.294811" />
+                            <point x="0.815157" y="0.235849" />
+                            <point x="0.149723" y="0.5" />
+                            <point x="0.946396" y="0.931604" />
+                            <point x="0.499076" y="0.931604" />
+                            <point x="0.00554529" y="0.992925" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500697">
+                        <collision-poly>
+                            <point x="0.00551471" y="0.0041841" />
+                            <point x="0.5" y="0.0013947" />
+                            <point x="0.825368" y="0.132497" />
+                            <point x="0.170956" y="0.499303" />
+                            <point x="0.566176" y="0.670851" />
+                            <point x="0.5" y="0.990237" />
+                            <point x="0.0183824" y="0.986053" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.500994" hotspotY="0.5">
+                        <collision-poly>
+                            <point x="0.00596421" y="0.00551471" />
+                            <point x="0.966203" y="0.03125" />
+                            <point x="0.998012" y="0.5" />
+                            <point x="0.630219" y="0.658088" />
+                            <point x="0.499006" y="0.919118" />
+                            <point x="0.0198807" y="0.981618" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.500717">
+                        <collision-poly>
+                            <point x="0.0128205" y="0.010043" />
+                            <point x="0.5" y="0.157819" />
+                            <point x="0.79304" y="0.162123" />
+                            <point x="0.82967" y="0.866571" />
+                            <point x="0.5" y="0.959828" />
+                            <point x="0.003663" y="0.997131" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families>
         <family name="botoes" plugin-id="Sprite" sid="8188564402915382">
@@ -2629,6 +2977,8 @@
                 <member>coxa_esquerda</member>
                 <member>mao_direita</member>
                 <member>mao_esquerda</member>
+                <member>ombro_direito</member>
+                <member>ombro_esquerdo</member>
                 <member>pe_direito</member>
                 <member>pe_esquerdo</member>
                 <member>perna_direita</member>
@@ -2691,6 +3041,8 @@
                 <member>cabeca_simulado</member>
                 <member>Cabeça_Ossos</member>
                 <member>musculotorax</member>
+                <member>Ombro_articu</member>
+                <member>ossosOmbro</member>
                 <member>pescoco_Articulacao</member>
                 <member>pescoco_invervacao</member>
                 <member>pescoco_irrigacao</member>
@@ -2699,6 +3051,7 @@
                 <member>quadrilArticulacao</member>
                 <member>quadrilinvervacao</member>
                 <member>quadrilIrrigacao</member>
+                <member>quadrilMusculo</member>
                 <member>quadrilOssos</member>
                 <member>slidetoraxossos</member>
                 <member>texto14</member>
@@ -2723,6 +3076,9 @@
                 <member>texto18</member>
                 <member>texto19</member>
                 <member>texto2</member>
+                <member>texto20</member>
+                <member>texto21</member>
+                <member>texto22</member>
                 <member>texto3</member>
                 <member>texto4</member>
                 <member>texto6</member>
@@ -2739,6 +3095,7 @@
         <layout-folder expanded="0" name="Inervacao">
             <layout>InervacaoCabeça.xml</layout>
             <layout>InervacaoPescoço.xml</layout>
+            <layout>InervacaoOmbro.xml</layout>
             <layout>InervacaoTórax.xml</layout>
             <layout>InervacaoAbdome.xml</layout>
             <layout>InervacaoQuadril.xml</layout>
@@ -2746,13 +3103,15 @@
         <layout-folder expanded="0" name="Articulacao">
             <layout>ArticulacaoCabeça.xml</layout>
             <layout>ArticulacaoPescoço.xml</layout>
+            <layout>ArticulacaoOmbro.xml</layout>
             <layout>ArticulacaoTórax.xml</layout>
             <layout>ArticulacaoQuadril.xml</layout>
         </layout-folder>
-        <layout-folder expanded="1" name="Ossos">
+        <layout-folder expanded="0" name="Ossos">
             <layout>OssosPescoço.xml</layout>
             <layout>OssosTórax.xml</layout>
             <layout>OssosQuadril.xml</layout>
+            <layout>OssosOmbro.xml</layout>
             <layout>OssosCabeça.xml</layout>
         </layout-folder>
         <layout-folder expanded="0" name="Irrigacao">
@@ -2761,12 +3120,15 @@
             <layout>IrrigacaoTórax.xml</layout>
             <layout>IrrigacaoAbdome.xml</layout>
             <layout>IrrigacaoQuadril.xml</layout>
+            <layout>IrrigacaoOmbro.xml</layout>
         </layout-folder>
-        <layout-folder expanded="0" name="Musculos">
+        <layout-folder expanded="1" name="Musculos">
             <layout>MusculoCabeça.xml</layout>
             <layout>MusculoPescoço.xml</layout>
             <layout>MusculoTórax.xml</layout>
             <layout>MusculoAbdome.xml</layout>
+            <layout>MusculoQuadril.xml</layout>
+            <layout>MusculoOmbro.xml</layout>
         </layout-folder>
         <layout-folder expanded="0" name="Simulado">
             <layout>SimuladoCabeça.xml</layout>
