@@ -79,5 +79,17 @@
                 </event-block>
             </sub-events>
         </event-group>
+        <event-block sid="209803070810334">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="4383249699049197" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="764037024968863" type="System">
+                    <param id="0" name="Layout">Inicial</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>

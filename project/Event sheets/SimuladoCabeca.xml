@@ -216,7 +216,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="412070550486067" title="avancar4">
+        <event-group collapsed="1" description="" sid="412070550486067" title="avancar4">
             <sub-events>
                 <event-block sid="6126948855178331">
                     <conditions>
@@ -258,7 +258,7 @@
                 </event-block>
             </sub-events>
         </event-group>
-        <event-group description="" sid="421301675827075" title="voltar4">
+        <event-group collapsed="1" description="" sid="421301675827075" title="voltar4">
             <sub-events>
                 <event-block sid="525332152519682">
                     <conditions>

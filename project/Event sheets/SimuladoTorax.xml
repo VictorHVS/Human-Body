@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>SimuladoTorax</name>
+    <events>
+        <event-block sid="7678697021752732">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="426948879623579" type="System" />
+            </conditions>
+            <actions>
+                <action id="2" name="Stop" sid="708096098798231" type="Slide" />
+                <action id="-9" name="Set value" sid="4921258197555418" type="System">
+                    <param id="0" name="Variable">TimerSimulado</param>
+                    <param id="1" name="Value">Timer</param>
+                </action>
+                <action id="2" name="Set at X" sid="6094598670008899" type="PerguntasA">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;A) Estrutura/ Articulação&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3249276598418114" type="PerguntasA">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;A) Classificação quanto à inserção / Diga duas estruturas&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="9537001591635363" type="PerguntasA">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;A) Estrutura&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="7631003303125691" type="PerguntasA">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;A) Estrutura/ Articula-se com&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="9003016325069747" type="PerguntasA">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;A) ABERTURAS DO TÓRAX: LIMITE SUPERIOR(1)&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="5218825436895905" type="PerguntasB">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;B) Estrutura/ C.C&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="5496487704610964" type="PerguntasB">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;B) Classificação Tipológica/ Diga duas Estruturas&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="9993098259405941" type="PerguntasB">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;B) Estrutura / Abriga&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="6491787117835739" type="PerguntasB">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;B) Estrutura/ Articula-se com&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="7546507642439749" type="PerguntasB">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;B) QUANDO É NECESSÁRIO PUNCIONAR O TÓRAX DEVEMOS FAZÊ-LO NA BORDA SUPERIOR DA COSTELA INFERIOR – (V) OU (F)&quot;</param>
+                </action>
+                <action id="0" name="Clear" sid="8914170978683688" type="RespostasA" />
+                <action id="0" name="Clear" sid="4424903328013523" type="RespostasB" />
+                <action id="2" name="Set at X" sid="2854927904862117" type="Respostas">
+                    <param id="0" name="X">0</param>
+                    <param id="1" name="Value">&quot;A) PROCESSO XIFOIDE/ ARTICULAÇÃO XIFOESTERNAL&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B)  ÂNGULO ESTERNAL/ PONTO DE REFERÊNCIA SEMIOLÓGICA&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3518031312273998" type="Respostas">
+                    <param id="0" name="X">1</param>
+                    <param id="1" name="Value">&quot;A) COSTELA VERDADEIRA/SULCO P/ OS VASOS SUBCLÁVIOS E TUBÉRCULO DO M. ESCALENO ANTERIOR&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B) COSTELA TÍPICA/ TUBÉRCULO DA COSTELA E COLO DA COSTELA&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3154089769373152" type="Respostas">
+                    <param id="0" name="X">2</param>
+                    <param id="1" name="Value">&quot;A) ÂNGULO DA COSTELA&quot; &amp; newline &amp; &quot;B) SULCO P/ OS VASOS SUBCLÁVIOS/ A. E V. SUBCLÁVIAS&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="3179040660271833" type="Respostas">
+                    <param id="0" name="X">3</param>
+                    <param id="1" name="Value">&quot;A) CABEÇA DA COSTELA/ FÓVEAS SUP. E INF. DA VÉRTEBRA&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B)  TUBÉRCULO DA COSTELA/ FÓVEA DO PROCESSO TRANSVERSO&quot;</param>
+                </action>
+                <action id="2" name="Set at X" sid="960735993493177" type="Respostas">
+                    <param id="0" name="X">4</param>
+                    <param id="1" name="Value">&quot;A) VÉRTEBRA T1&quot; &amp; newline &amp;&#x0D;&#x0A;&quot;B)  (V)&#x0D;&#x0A;&quot;</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="2868266277186549">
+            <conditions>
+                <condition id="-1" name="Every tick" sid="5007351312530744" type="System" />
+            </conditions>
+            <actions>
+                <action id="0" name="Set text" sid="6997779260868424" type="Tempo">
+                    <param id="0" name="Text">TimerSimulado &amp;&quot;s&quot;</param>
+                </action>
+                <action id="0" name="Set text" sid="4145481143105015" type="Text">
+                    <param id="0" name="Text">&quot;#&quot; &amp; Slide.AnimationFrame+1 &amp; &quot;/&quot; &amp; Slide.AnimationFrameCount</param>
+                </action>
+                <action id="0" name="Set text" sid="5574568558959542" type="letraA">
+                    <param id="0" name="Text">PerguntasA.At(Slide.AnimationFrame)</param>
+                </action>
+                <action id="0" name="Set text" sid="6834741171522525" type="LetraB">
+                    <param id="0" name="Text">PerguntasB.At(Slide.AnimationFrame)</param>
+                </action>
+                <action id="0" name="Set text" sid="6993422887912134" type="respost">
+                    <param id="0" name="Text">Respostas.At(Slide.AnimationFrame)</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="7349767127714751">
+            <conditions>
+                <condition id="3" name="Compare frame" sid="5497428534678685" type="Slide">
+                    <param id="0" name="Comparison">4</param>
+                    <param id="1" name="Number">0</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3958609414628305">
+                    <conditions>
+                        <condition id="-6" name="Every X seconds" sid="2342155318796666" type="System">
+                            <param id="0" name="Interval (seconds)">1.0</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-11" name="Subtract from" sid="8328911382909564" type="System">
+                            <param id="0" name="Variable">TimerSimulado</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-group collapsed="1" description="" sid="5632043427294277" title="BotoesPrincipais8">
+            <sub-events>
+                <event-block sid="3246592823591213">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="557100218275099" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">menus2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="4155189041107646" type="System">
+                            <param id="0" name="Layout">Transicao</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="7417058211245278">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="9709363543046232" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">home2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-2" name="Go to layout" sid="8548011945485926" type="System">
+                            <param id="0" name="Layout">Inicial</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group description="" sid="3035251528822994" title="avancar8">
+            <sub-events>
+                <event-block sid="6126948855178331">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="7504481678739215" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">next_img</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="8982531639192876" type="RespostasA">
+                            <param id="0" name="X">Slide.AnimationFrame</param>
+                            <param id="1" name="Value">Box_RespostaA.Text</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="9298417370720111" type="RespostasB">
+                            <param id="0" name="X">Slide.AnimationFrame</param>
+                            <param id="1" name="Value">Box_RespostaB.Text</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7897574900046224" type="Slide">
+                            <param id="0" name="Frame number">Slide.AnimationFrame+1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6113083002185569" type="System">
+                            <param id="0" name="Variable">TimerSimulado</param>
+                            <param id="1" name="Value">Timer</param>
+                        </action>
+                        <action id="0" name="Set text" sid="6909406708991724" type="Box_RespostaA">
+                            <param id="0" name="Text">RespostasA.At(Slide.AnimationFrame)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3658379518207306" type="box_RespostaB">
+                            <param id="0" name="Text">RespostasB.At(Slide.AnimationFrame)</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="1331712476163764" type="fundo_resposta">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="6096206312024817" type="respost">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-group collapsed="1" description="" sid="2401682386556182" title="voltar8">
+            <sub-events>
+                <event-block sid="525332152519682">
+                    <conditions>
+                        <condition id="6" name="On object clicked" sid="4210851503390075" type="Mouse">
+                            <param id="0" name="Mouse button">0</param>
+                            <param id="1" name="Click type">0</param>
+                            <param id="2" name="Object clicked">back_img</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="2" name="Set at X" sid="5630171638379331" type="RespostasA">
+                            <param id="0" name="X">Slide.AnimationFrame</param>
+                            <param id="1" name="Value">Box_RespostaA.Text</param>
+                        </action>
+                        <action id="2" name="Set at X" sid="9709281527787847" type="RespostasB">
+                            <param id="0" name="X">Slide.AnimationFrame</param>
+                            <param id="1" name="Value">Box_RespostaB.Text</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="7869104579518216" type="Slide">
+                            <param id="0" name="Frame number">Slide.AnimationFrame-1</param>
+                        </action>
+                        <action id="-9" name="Set value" sid="6888153827165318" type="System">
+                            <param id="0" name="Variable">TimerSimulado</param>
+                            <param id="1" name="Value">Timer</param>
+                        </action>
+                        <action id="0" name="Set text" sid="4209497852851998" type="Box_RespostaA">
+                            <param id="0" name="Text">RespostasA.At(Slide.AnimationFrame)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="3379738020624943" type="box_RespostaB">
+                            <param id="0" name="Text">RespostasB.At(Slide.AnimationFrame)</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="2073100269737812" type="fundo_resposta">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="3386181185402915" type="respost">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-group>
+        <event-block sid="4479519938727725">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="7931365781514306" type="System">
+                    <param id="0" name="Variable">TimerSimulado</param>
+                    <param id="1" name="Comparison">0</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="3299995890986461" type="Slide">
+                    <param id="0" name="Frame number">Slide.AnimationFrame+1</param>
+                </action>
+                <action id="-9" name="Set value" sid="7426169658034351" type="System">
+                    <param id="0" name="Variable">TimerSimulado</param>
+                    <param id="1" name="Value">Timer</param>
+                </action>
+                <action id="-15" name="Set visible" sid="9205535471166676" type="fundo_resposta">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+                <action id="-15" name="Set visible" sid="5654694071892088" type="respost">
+                    <param id="0" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="4008196786149705">
+            <conditions>
+                <condition id="6" name="On object clicked" sid="4930888614579237" type="Mouse">
+                    <param id="0" name="Mouse button">0</param>
+                    <param id="1" name="Click type">0</param>
+                    <param id="2" name="Object clicked">eye</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="3060798623975427">
+                    <conditions>
+                        <condition id="-9" name="Is visible" sid="2833625142779975" type="fundo_resposta" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="8554522951349434" type="fundo_resposta">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="8075376922197621" type="respost">
+                            <param id="0" name="Visibility">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="3211418394582197">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="3174287422281777" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-15" name="Set visible" sid="4454997198694659" type="fundo_resposta">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                        <action id="-15" name="Set visible" sid="7220667018302119" type="respost">
+                            <param id="0" name="Visibility">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="7376213978058913">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="1778498709514737" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="5137168497561046" type="System">
+                    <param id="0" name="Layout">Transicao</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

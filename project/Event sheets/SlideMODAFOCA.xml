@@ -368,5 +368,17 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <event-block sid="1058179036405946">
+            <conditions>
+                <condition id="0" name="On key pressed" sid="7735061891744472" type="Keyboard">
+                    <param id="0" name="Key">27 (Esc)</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="6005544752454426" type="System">
+                    <param id="0" name="Layout">Transicao</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
