@@ -68,10 +68,10 @@
                     <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6158178042584957" speed="5">
                         <frame duration="1" hotspotX="0.500682" hotspotY="0.500498">
                             <collision-poly>
-                                <point x="0.132333" y="0.878607" />
-                                <point x="0.81719" y="0.891542" />
-                                <point x="0.813097" y="1" />
-                                <point x="0.167804" y="1" />
+                                <point x="0.0109141" y="0.879602" />
+                                <point x="1" y="0.883582" />
+                                <point x="1" y="1" />
+                                <point x="0" y="1" />
                             </collision-poly>
                         </frame>
                     </animation>
@@ -4846,7 +4846,7 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="image" sid="7829552278126853">
+        <object-type name="quadril_simu" sid="7829552278126853">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
                 <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="8321349058770979" speed="5">
@@ -4875,7 +4875,6 @@
             <animation-folder expanded="1">
                 <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1751141591432744" speed="5">
                     <frame duration="1" hotspotX="0.50104" hotspotY="0.500677" />
-                    <frame duration="1" hotspotX="0.501355" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.501548" hotspotY="0.500669" />
                     <frame duration="1" hotspotX="0.501558" hotspotY="0.500671" />
                     <frame duration="1" hotspotX="0.502591" hotspotY="0.500766" />
@@ -4884,20 +4883,24 @@
                     <frame duration="1" hotspotX="0.501529" hotspotY="0.500659" />
                     <frame duration="1" hotspotX="0.501548" hotspotY="0.500675" />
                     <frame duration="1" hotspotX="0.501577" hotspotY="0.500655" />
+                    <frame duration="1" hotspotX="0.501355" hotspotY="0.5" />
                 </animation>
             </animation-folder>
         </object-type>
         <object-type name="braco_simu" sid="7288515289095752">
             <plugin id="Sprite" />
             <animation-folder expanded="1">
-                <animation framecount="7" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6245972600911705" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.502591" />
+                <animation framecount="10" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="6245972600911705" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.502146" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.50303" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.500816" />
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
                     <frame duration="1" hotspotX="0.500711" hotspotY="0.501272" />
                     <frame duration="1" hotspotX="0.501027" hotspotY="0.502008" />
+                    <frame duration="1" hotspotX="0.500756" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                    <frame duration="1" hotspotX="0.500724" hotspotY="0.50096" />
                 </animation>
             </animation-folder>
         </object-type>
@@ -5075,6 +5078,7 @@
                 <member>pescoco_irrigacao</member>
                 <member>pescoco_musculo</member>
                 <member>pescoco_ossos</member>
+                <member>quadril_simu</member>
                 <member>quadrilArticulacao</member>
                 <member>quadrilinvervacao</member>
                 <member>quadrilIrrigacao</member>

@@ -319,13 +319,16 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="image" uid="702">
+                <instance type="quadril_simu" uid="702">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
                         <initial-frame>0</initial-frame>
                         <collisions>Enabled</collisions>
                     </properties>
+                    <instance-variables>
+                        <QtdSlide>3</QtdSlide>
+                    </instance-variables>
                     <blend-mode>0</blend-mode>
                     <effect-fallback>0</effect-fallback>
                     <world>
